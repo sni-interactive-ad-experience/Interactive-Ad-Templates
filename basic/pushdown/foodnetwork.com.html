@@ -1,0 +1,52 @@
+<!--
+  Name: Pushdown Flash Creative Template
+  Version: 1.0
+  Site: FoodNetwork.com
+  Modified: 11-16-2012
+
+  Usage: Placeholders are denoted by {{}}. Replace (including brackets) these with your values.
+ -->
+
+
+ <style>
+  #pushdown_adtag .iax_inner {width:994px;}
+ </style>
+
+ <!--The path for your 1x1 goes below-->
+ <img src="{{1X1_IMPRESSION}}" border="0" width="1" height="1" alt="" style="display:none;">
+
+<!-- Flash element id set by adserver to avoid conflicts with other ads -->
+<div id="$FlightID$"></div>
+
+<script type="text/javascript" charset="utf-8">
+function gotoUrlAs3(url, target) {
+  window.open(url, target);
+}
+
+flashvars.clicktag = escape("{{CLICKTAG_URL}}");
+// flashvars.imptag = escape("{{IMPRESSION_URL}}");
+
+var params = {
+  allowscriptaccess: "always",
+  wmode: "opaque"
+};
+var attributes = {
+  id: "pushdown-swf"
+};
+
+function callback(e) {
+  if(e.success != true) {
+    var div = document.getElementById("$FlightID$");
+    <!--The Path and link for your image goes below, you can also set your image height and width-->
+    div.innerHTML = "<a href='{{CLICKTAG_URL}}' target='_blank'><img src='{{FLASH_FALLBACK_IMAGE}}' alt='{{FLASH_FALLBACK_IMAGE_ALTERNATIVE_TEXT}}' /></a>";
+    div.style.width = '994px';
+    div.style.height = '66px';
+    div.style.backgroundColor = 'transparent';
+  }
+}
+  // The path for your swf goes below, dont forget to put ?$random$ after-->
+  swfobject.embedSWF("{{SWF_URL}}?$random$", "$FlightID$", "994", "66", "10.0.0", null, flashvars, params, attributes, callback);
+</script>
+
+<!-- First  Look Tag -->
+<div style="display:none;"><iframe src="http://adsremote.scrippsnetworks.com/html.ng/adtype=COOKIE&userType=firstlook" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
