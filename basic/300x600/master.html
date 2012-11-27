@@ -4,14 +4,13 @@
   Compatible Sites: Food.com, FoodNetwork.com, HGTV.com, DIYNetwork.com
   Modified: 11-16-2012
 
-
   Description: Will run in both an iframe and on page ad serving. Uses basic dependency management to ensure proper environment for ad creative. It is set to use SWFObject 2.2. The 1.x version has been deprecated and is no longer supported.
 
   Usage: Use this to embed swf modules on the pages. We are basically wrapping the old swf code in a Javascript function so it can be called later when all the required scripts (swfobject, etc) are ready.
 
     1. The impression tag is outside of the JS at the top. Set this normally.
     2. If your code has requirements other than swfobject, you may add the absolute url in the required scripts array.
-    3. Placeholders are denoted but {{}}. Replace (including bracktets) these with your values.
+    3. Placeholders are denoted but {{}}. Replace (including brackets) these with your values.
     4. Update the the flashvars, fallback image, and swfpath as usual.
  -->
 
@@ -73,6 +72,3 @@
 <script src="http://adimages.scrippsnetworks.com/lib/ad-dependency.js" type="text/javascript" charset="utf-8" id="iax-script"></script>
 
 <!--/End-->
-
-<!-- First  Look Tag -->
-<div style="display:none;"><iframe src="http://adsremote.scrippsnetworks.com/html.ng/adtype=COOKIE&userType=firstlook" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
