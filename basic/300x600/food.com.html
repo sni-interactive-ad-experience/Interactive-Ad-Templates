@@ -30,6 +30,11 @@
   // , 'http://adimages.scrippsnetworks.com/lib/swf_object/jquery-1.7.2.min.js' // Uncomment if jQuery is used.
   ];
 
+  // start AS3 browser popup fix
+  function gotoUrlAs3(url, target){
+     window.open(url,target);
+  }
+
   // Create function in global scope which is called by the dependency script on load.
   window.iax_run = function() {
     dominoes(requiredScripts, function() {
