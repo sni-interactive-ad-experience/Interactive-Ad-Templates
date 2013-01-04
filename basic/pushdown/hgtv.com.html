@@ -2,15 +2,18 @@
   Name: Pushdown Flash Creative Template
   Version: 1.0
   Site: HGTV.com
-  Modified: 11-18-2012
+  Modified: 01-04-2013
 
-  Usage: Placeholders are denoted by {{}}. Replace (including brackets) these with your values.
+  Usage: Placeholders are denoted by {{}}. Replace placeholders (including brackets) with your values.
  -->
 
-<style type="text/css">
-  #pushdown_adtag {text-align:center;}
-  .iax_inner{width:994px;}
-</style>
+<!-- NON-FIRSTLOOK AD OPS IFRAME (DO NOT REMOVE) -->
+<!-- Remove if first look pushdown -->
+ <div style="display:none;"><iframe src="http://adsremote.scrippsnetworks.com/html.ng/adtype=COOKIE&userType=firstlook" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+
+<!-- Uncomment next line for first look pushdown -->
+<!--<div style="display:none;"><iframe src="http://adsremote.scrippsnetworks.com/html.ng/adtype=COOKIE&TOPIC2=GOAHEAD" width=1 height=1 frameborder=0 scrolling=no marginheight="0" marginwidth="0"></iframe></div><div style="display:none;">
+</div>-->
 
 <!--The path for your 1x1 goes below-->
  <img src="{{1X1_IMPRESSION}}" border="0" width="1" height="1" alt="" style="display:none;">
@@ -27,6 +30,9 @@
  flashvars.clicktag = escape("{{CLICKTAG_URL}}");
  // flashvars.imptag = escape("{{IMPRESSION_URL}}");
 
+ flashvars.version = "demo";
+ // flashvars.version = "live";
+
  var params = {
    allowscriptaccess: "always",
    wmode: "opaque"
@@ -40,14 +46,11 @@
      var div = document.getElementById("$FlightID$");
      <!--The Path and link for your image goes below, you can also set your image height and width-->
      div.innerHTML = "<a href='{{CLICKTAG_URL}}' target='_blank'><img src='{{FLASH_FALLBACK_IMAGE}}' alt='{{FLASH_FALLBACK_IMAGE_ALTERNATIVE_TEXT}}' /></a>";
-     div.style.width = '994px';
+     div.style.width = '970px';
      div.style.height = '66px';
      div.style.backgroundColor = 'transparent';
    }
  }
    // The path for your swf goes below, dont forget to put ?$random$ after-->
-   swfobject.embedSWF("{{SWF_URL}}?$random$", "$FlightID$", "994", "66", "10.0.0", null, flashvars, params, attributes, callback);
+   swfobject.embedSWF("{{SWF_URL}}?$random$", "$FlightID$", "970", "66", "10.0.0", null, flashvars, params, attributes, callback);
  </script>
-
- <!-- First  Look Tag -->
- <div style="display:none;"><iframe src="http://adsremote.scrippsnetworks.com/html.ng/adtype=COOKIE&userType=firstlook" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
