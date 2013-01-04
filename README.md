@@ -5,14 +5,28 @@ More detailed description will go here.
 
 ## To Do List
 ### Brandscapes
-- HTML templates  
-	- flash  
-	- non-flash  
-- CSS templates
-	- each site has specific css template
+- HGTV
+- FoodNetwork
+- TravelChannel
+- Food.com
+- CookingChannelTv.com
+- RachaelRay.com
+- DIYNetwork.com
+- Frontdoor.com
+- HGTVRemodels.com
+- GACTV.com
 
 ### Pushdowns
-- specific templates for each site with first look tag
+- ~~HGTV~~
+- ~~FoodNetwork~~
+- ~~TravelChannel~~
+- Food.com
+- CookingChannelTv.com
+- RachaelRay.com
+- DIYNetwork.com
+- Frontdoor.com
+- HGTVRemodels.com
+- GACTV.com
 
 ### Outstanding Issues
 - FrontDoor.com
