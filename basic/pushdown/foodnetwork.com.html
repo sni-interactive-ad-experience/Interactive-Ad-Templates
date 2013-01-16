@@ -25,7 +25,7 @@
 </style>
 
  <!-- Flash element id set by adserver to avoid conflicts with other ads -->
- <div id="$FlightID$"></div>
+ <div id="cs$FlightID$"></div>
 
  <script type="text/javascript" charset="utf-8">
  function gotoUrlAs3(url, target) {
@@ -49,7 +49,7 @@
 
  function callback(e) {
    if(e.success != true) {
-     var div = document.getElementById("$FlightID$");
+     var div = document.getElementById("cs$FlightID$");
      <!--The Path and link for your image goes below, you can also set your image height and width-->
      div.innerHTML = "<a href='{{CLICKTAG_URL}}' target='_blank'><img src='{{FLASH_FALLBACK_IMAGE}}' alt='{{FLASH_FALLBACK_IMAGE_ALTERNATIVE_TEXT}}' /></a>";
      div.style.width = '994px';
@@ -58,5 +58,5 @@
    }
  }
    // The path for your swf goes below, dont forget to put ?$random$ after-->
-   swfobject.embedSWF("{{SWF_URL}}?$random$", "$FlightID$", "994", "66", "10.0.0", null, flashvars, params, attributes, callback);
+   swfobject.embedSWF("{{SWF_URL}}?$random$", "cs$FlightID$", "994", "66", "10.0.0", null, flashvars, params, attributes, callback);
  </script>

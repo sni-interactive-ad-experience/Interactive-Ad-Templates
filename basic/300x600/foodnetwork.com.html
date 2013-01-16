@@ -19,7 +19,7 @@
 <img src="{{1X1_IMPRESSION}}" border="0" width="1" height="1" alt="" style="display:none;">
 
 <!-- Flash element id set by adserver to avoid conflicts with other ads -->
-<div id="$FlightID$"></div>
+<div id="cs$FlightID$"></div>
 
 <script type="text/javascript">
   // Put any Javascript code inside the dominoes callback function. See comments below.
@@ -57,7 +57,7 @@
       // Non-flash fallback
       function callback(e) {
         if(e.success != true) {
-          var div = document.getElementById("$FlightID$");
+          var div = document.getElementById("cs$FlightID$");
           // The Path and link for your image goes below, you can also set your image height and width
           div.innerHTML = "<a href='{{CLICKTAG_URL}}' target='_blank'><img src='{{FLASH_FALLBACK_IMAGE}}' alt='{{FLASH_FALLBACK_IMAGE_ALTERNATIVE_TEXT}}' /></a>";
           div.style.width = '300px';
@@ -66,7 +66,7 @@
         }
       }
       // The path for your swf goes below, dont forget to leave the ?$random$ after. Set your swf height as well
-      swfobject.embedSWF("{{SWF_URL}}?$random$", "$FlightID$", "300", "600", "10.0.0", null, flashvars, params, attributes, callback);
+      swfobject.embedSWF("{{SWF_URL}}?$random$", "cs$FlightID$", "300", "600", "10.0.0", null, flashvars, params, attributes, callback);
 
       //////////////////////////////
       // Ad Creative JS Ends Here
