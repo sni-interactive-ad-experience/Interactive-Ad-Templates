@@ -1,0 +1,45 @@
+  /*
+Name: Brandscape Creative Template CSS
+Version: 1.0
+Site: FoodNetwork.com
+Modified: 01-31-2013
+*/
+
+#home {
+  background-color: {{BACKGROUND_COLOR}};
+}
+#fn-hd-wrap {
+  background: none;
+}
+#fn-bd {
+  background: {{BACKGROUND_COLOR}} url(bottom.jpg) no-repeat center 0px; /* Bottom Background. Start at bottom of viewable area */
+}
+#sponsor-links {
+  background-color: transparent;
+}
+#xpromo-ft {
+  background-image: none;
+}
+#pushdown_adtag {
+  width: 100%;
+  height: 151px; /* Height of viewable area */
+  margin: -53px auto 0;
+  padding: 53px 0 0;
+  background: {{BACKGROUND_COLOR}} url(top.jpg) no-repeat top center; /* Top background image. End at bottom of viewable areas. */
+}
+#pushdown_adtag a {
+  display: block;
+  width: 994px;
+  height: 172px;
+  margin: 0 auto;
+}
+.iax_inner {
+  width: 994px;
+}
+#fn-hd .search {
+  background: #F8EEE1 url(http://images.foodnetwork.com/webfood/fn20/imgs/ifn-bg.png) no-repeat scroll left bottom;
+  margin: 34px 0 0 0;
+  padding: 10px 0 10px 250px;
+  position: relative;
+  z-index: 2;
+}
