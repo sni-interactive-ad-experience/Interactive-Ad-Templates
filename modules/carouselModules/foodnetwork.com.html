@@ -1,0 +1,70 @@
+<!-- START Food Network Right Rail Carousel Module -->
+<style type="text/css">
+  .promo.crsl .bd .sponsor em{
+    margin-top: 4px;
+    _margin-top: 15px;
+    vertical-align: top;
+    font-style: normal;
+    color: #999;
+    margin-right: 3px;
+  }
+  .promo.crsl .bd .crslTwo120-e .jcarousel-clip-horizontal {
+    height: 135px;
+  }
+</style>
+<div class="promo pod hummus crsl">
+<div class="hd" style="background-color:#000;">
+<h4 style="font-size:14px;text-align:left;color:#fff;">Header Text for Module Goes Here</h4>
+</div>
+<div class="bd clrfix">
+<div id="host-products" class="crslTwo120-e">
+  <div class="crsl">
+    <ul>
+
+      <!-- Create a new slide by duplicating the li block below. Each slide holds two items. -->
+
+      <!-- Start Slide -->
+      <li>
+        <ul>
+          <li>
+            <a target="_blank" href="CLICKTAG">
+              <img src="IMAGEURL" width="120" height="90" alt="">
+              <p>Description for this item photo. </p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="CLICKTAG">
+              <img src="IMAGEURL" width="120" height="90" alt="">
+              <p>Description for this item photo. </p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- End Slide -->
+
+
+    </ul>
+  </div>
+</div>
+<span class="sponsor" style="width:170px;">
+  <em>Courtesy of </em>
+  <a target="_blank" href="CLICKTAG">
+    <img src="LOGOIMAGE" width="115" height="17" alt="Courtesy of {{SPONSORNAME}}" style="margin-top:14px;_margin-top:-17px;" />
+  </a>
+</span>
+  </div>
+  <div class="ft"></div>
+</div>
+<!-- Impression Tags -->
+<div style="display:none;">
+  <img src="IMPRESSIONTAG" border="0" width="1" height="1" alt="Advertisement">
+</div>
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    $("#host-products").dpl("carousel",{
+      visible: 2,
+      pagelink:"image"
+    });
+  });
+</script>
+<!-- END Food Network Right Rail Carousel Module -->
