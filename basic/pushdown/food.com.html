@@ -7,6 +7,8 @@
   Usage: Placeholders are denoted by {{}}. Replace (including brackets) these with your values.
  -->
 
+ <!-- Food.com uses a modified version of swfobject which hardcodes the fallback function. Here we load our own as cs_swfobject -->
+  <script src="http://adimages.scrippsnetworks.com/lib/swf_object/cs-swfobject-2.2.js" type="text/javascript" charset="utf-8"></script>
 
  <style>
   #pushdown_adtag .iax_inner {width:994px;}
@@ -46,7 +48,7 @@ function callback(e) {
   }
 }
   // The path for your swf goes below, dont forget to put ?$random$ after-->
-  swfobject.embedSWF("{{SWF_URL}}?$random$", "cs$FlightID$", "994", "66", "10.0.0", null, flashvars, params, attributes, callback);
+  cs_swfobject.embedSWF("{{SWF_URL}}?$random$", "cs$FlightID$", "994", "66", "10.0.0", null, flashvars, params, attributes, callback);
 </script>
 
 <!-- First  Look Tag -->
