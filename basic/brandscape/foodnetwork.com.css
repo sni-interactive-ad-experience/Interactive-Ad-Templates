@@ -22,7 +22,7 @@ Modified: 01-31-2013
 }
 #pushdown_adtag {
   width: 100%;
-  height: 151px; /* Height of viewable area */
+  height: 175px; /* Height of viewable area */
   margin: -53px auto 0;
   padding: 53px 0 0;
   background: {{BACKGROUND_COLOR}} url(top.jpg) no-repeat top center; /* Top background image. End at bottom of viewable areas. */
@@ -30,7 +30,7 @@ Modified: 01-31-2013
 #pushdown_adtag a {
   display: block;
   width: 994px;
-  height: 172px;
+  height: 175px;
   margin: 0 auto;
 }
 .iax_inner {
