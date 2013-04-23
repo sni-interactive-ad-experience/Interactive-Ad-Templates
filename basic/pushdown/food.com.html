@@ -20,36 +20,57 @@
 <!-- Flash element id set by adserver to avoid conflicts with other ads -->
 <div id="cs$FlightID$"></div>
 
-<script type="text/javascript" charset="utf-8">
-function gotoUrlAs3(url, target) {
-  window.open(url, target);
-}
+<script type="text/javascript">
+ // Put any Javascript code inside the dominoes callback function. See comments below.
+ var requiredScripts = [
+ // Food.com uses a modified version of swfobject which hardcodes the fallback function. Here we load our own as cs_swfobject
+ "http://adimages.scrippsnetworks.com/lib/swf_object/cs-swfobject-2.2.js"];
+ // AS3 browser popup fix
+ function gotoUrlAs3(url, target) {
+   window.open(url, target);
+ }
+ // Create function in global scope which is called by the dependency script on load.
+ window.iax_run = function() {
+   dominoes(requiredScripts, function() {
 
-var flashvars = {};
-flashvars.clicktag = escape("{{CLICKTAG_URL}}");
-// flashvars.imptag = escape("{{IMPRESSION_URL}}");
+     //////////////////////////////
+     // Ad Creative JS Starts Here
+     //////////////////////////////
 
-var params = {
-  allowscriptaccess: "always",
-  wmode: "opaque"
-};
-var attributes = {
-  id: "pushdown-swf"
-};
+     var flashvars = {};
+     flashvars.clicktag = escape("{{CLICKTAG_URL}}");
+     // flashvars.imptag = escape("{{IMPRESSION_URL}}");
 
-function callback(e) {
-  if(e.success != true) {
-    var div = document.getElementById("cs$FlightID$");
-    <!--The Path and link for your image goes below, you can also set your image height and width-->
-    div.innerHTML = "<a href='{{CLICKTAG_URL}}' target='_blank'><img src='{{FLASH_FALLBACK_IMAGE}}' alt='{{FLASH_FALLBACK_IMAGE_ALTERNATIVE_TEXT}}' /></a>";
-    div.style.width = '994px';
-    div.style.height = '66px';
-    div.style.backgroundColor = 'transparent';
-  }
-}
-  // The path for your swf goes below, dont forget to put ?$random$ after-->
-  cs_swfobject.embedSWF("{{SWF_URL}}?$random$", "cs$FlightID$", "994", "66", "10.0.0", null, flashvars, params, attributes, callback);
+     var params = {
+       allowscriptaccess: "always",
+       wmode: "opaque"
+     };
+     var attributes = {
+       id: "pushdown-swf"
+     };
+
+     function callback(e) {
+       if (e.success != true) {
+         var div = document.getElementById("cs$FlightID$");
+         // The Path and link for your image goes below, you can also set your image height and width
+         div.innerHTML = "<a href='{{CLICKTAG_URL}}' target='_blank'><img src='{{FLASH_FALLBACK_IMAGE}}' alt='{{FLASH_FALLBACK_IMAGE_ALTERNATIVE_TEXT}}' /></a>";
+         div.style.width = '994px';
+         div.style.height = '66px';
+         div.style.backgroundColor = 'transparent';
+       }
+     }
+     // The path for your swf goes below, dont forget to put ?$random$ after-->
+     cs_swfobject.embedSWF("{{SWF_URL}}?$random$", "cs$FlightID$", "994", "66", "10.0.0", null, flashvars, params, attributes, callback);
+
+     //////////////////////////////
+     // Ad Creative JS Ends Here
+     //////////////////////////////
+   });
+ }
 </script>
+
+<!-- Load dependency script - DO NOT REMOVE -->
+<script src="http://adimages.scrippsnetworks.com/lib/ad-dependency.js" type="text/javascript" charset="utf-8" id="iax-script"></script>
 
 <!-- First  Look Tag -->
 <div style="display:none;"><iframe src="http://adsremote.scrippsnetworks.com/html.ng/adtype=COOKIE&userType=firstlook" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
