@@ -1,0 +1,77 @@
+<!--
+  Name: Pushdown Flash Creative Template
+  Version: 1.0
+  Site: HGTV.com
+  Modified: 01-04-2013
+
+  Usage: Placeholders are denoted by {{}}. Replace placeholders (including brackets) with your values.
+ -->
+
+<!-- NON-FIRSTLOOK AD OPS IFRAME (DO NOT REMOVE) -->
+ <div style="display:none;"><iframe src="http://adsremote.scrippsnetworks.com/html.ng/adtype=COOKIE&userType=firstlook" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+
+ <!-- Remove if running on homepage. Leave in place for all others. -->
+<!-- <div style="display:none;"><iframe src="http://adsremote.scrippsnetworks.com/html.ng/adtype=COOKIE&TOPIC2=GOAHEAD" width=1 height=1 frameborder=0 scrolling=no marginheight="0" marginwidth="0"></iframe></div><div style="display:none;">
+ </div> -->
+
+<!--The path for your 1x1 goes below-->
+ <img src="http://ad.doubleclick.net/imp;v1;f;261286538;0-0;0;85456898;1|1;49898256|49890119|1;;cs=r;%3fhttp://ad.doubleclick.net/dot.gif?$random$" border="0" width="1" height="1" alt="" style="display:none;">
+
+
+ <!-- Flash element id set by adserver to avoid conflicts with other ads -->
+ <div id="cs$FlightID$"></div>
+
+ <script type="text/javascript" charset="utf-8">
+ function gotoUrlAs3(url, target) {
+   window.open(url, target);
+ }
+
+ var flashvars = {};
+ flashvars.clickTag = escape("http://ad.doubleclick.net/clk;261287089;85456898;j?http://www.lumberliquidators.com/home.jsp?&WT.mc_id=Scripps_2012-2013");
+ // flashvars.imptag = escape("{{IMPRESSION_URL}}");
+ flashvars.impTag = escape("http://adsremote.scrippsnetworks.com/image.ng/site=DOOR&adtype=TRACKING&TRACKING=DOOR_13APR05_LUMBERLIQUIDATORS_EXPAND_1X1&adsize=1x1&PagePos=1") //Expand
+ flashvars.impTag2 = escape("http://adsremote.scrippsnetworks.com/image.ng/site=DOOR&adtype=TRACKING&TRACKING=DOOR_13APR05_LUMBERLIQUIDATORS_COLLAPSE_1X1&adsize=1x1&PagePos=1") //collapse
+
+ flashvars.version = "demo";
+ // flashvars.version = "live";
+
+ var params = {
+   allowscriptaccess: "always",
+   wmode: "opaque"
+ };
+ var attributes = {
+   id: "pushdown-swf"
+ };
+
+ function callback(e) {
+   if(e.success != true) {
+     var div = document.getElementById("cs$FlightID$");
+     <!--The Path and link for your image goes below, you can also set your image height and width-->
+     div.innerHTML = "<a href='http://ad.doubleclick.net/clk;261287089;85455095;x?http://www.lumberliquidators.com/home.jsp?&WT.mc_id=Scripps_2012-2013' target='_blank'><img src='http://adimages.scrippsnetworks.com/iax/lumber_liquidators/2013/4-12_pushdown/lumbliq_4-12_pushdown_alt.jpg' alt='' /></a>";
+     div.style.width = '970px';
+     div.style.height = '66px';
+     div.style.backgroundColor = 'transparent';
+   }
+ }
+   // The path for your swf goes below, dont forget to put ?$random$ after-->
+   swfobject.embedSWF("http://adimages.scrippsnetworks.com/iax/lumber_liquidators/2013/4-12_pushdown/lumbliq_4-12_pushdown.swf?$random$", "cs$FlightID$", "970", "66", "10.0.0", null, flashvars, params, attributes, callback);
+
+
+
+
+   var socialVisible = true;
+   function showHideSocial(){
+    if( $('#sharebar:visible') ){
+      $('#sharebar').hide();
+    } else {
+      $('#sharebar').show();
+    };
+   }
+
+
+ </script>
+
+
+
+
+
