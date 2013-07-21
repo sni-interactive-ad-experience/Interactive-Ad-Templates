@@ -16,6 +16,9 @@ if ($siKeyword == '' && typeof mdManager == "object") {
 var isFCOM = (typeof(SNI.RZ) !== "undefined");
 var isMB = ( window.location.hostname === "scrippsonline.com" );
 
+// Convert hyphens to spaces on foodcom
+if(isFCOM) $siKeyword = $siKeyword.replace("-", " ");
+
 // ///////////////////////////////////
 // START CENTER RESULT BLOCK /////////
 // ///////////////////////////////////
@@ -24,13 +27,13 @@ var isMB = ( window.location.hostname === "scrippsonline.com" );
 // Values that are same across all recipes can be set here.
 var CenterRecipe = function() {
   this.title = "";
-  this.sponsor = "Carnation&reg; Breakfast Essentials&trade;";
+  this.sponsor = "";
   this.clicktag = "";
   this.image = "";
   this.level = "";
   this.ingredients = "";
   this.cooktime = "";
-  this.courtesyLink = "http://ad.doubleclick.net/click;h=v2|409D|0|0|%2a|s;271284997;0-0;0;96987031;31-1|1;53875771|53786352|1;;;pc=[TPAS_ID]%3fhttp://www.carnationbreakfastessentials.com/Public/Default.aspx?source=0E79C81D-0DB1-451E-BB27-50016AB0773E&utm_source=%s&utm_medium=banner&utm_campaign=CBE13&utm_content=%ecid!";
+  this.courtesyLink = "";
   this.impression1x1 = "";
   this.internalTracking = trueCount;
   this.researchTag = "";
@@ -46,7 +49,7 @@ var matchedRecipeSet = [];
  * Center Results and Impression Logic
  * ==========================================
 */
-if( $.inArray( 'breakfast', keytermSet ) > -1 ){
+if( $.inArray( 'keyword1', keytermSet ) > -1 || $.inArray( 'keyword2', keytermSet ) > -1 ){
   var centerRecipe = new CenterRecipe();
   centerRecipe.title          = "<RECIPE TITLE>";
   centerRecipe.clicktag       = "<RECIPE CLICKTAG>";
