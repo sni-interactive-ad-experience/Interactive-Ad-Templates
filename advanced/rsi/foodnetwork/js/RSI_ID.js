@@ -1,10 +1,13 @@
-// Monday April 08, 2013
+// SNI Recipe Search Integration Bootstrap | RSI_ID.js Template
 
 var $siAssetsPath = 'http://images.foodnetwork.com/webfood/images/sales/search_integration/js/';
 var $asiAssetsPath = 'http://images.foodnetwork.com/webfood/images/sales/search_integration/asi_assets/js/';
-// TODO: Change to Sponsor Name: Must match keywords2013.js value and the XML directory names on Scrippsonline and FoodNetwork.com
 
-var $siSponsor = '<RSI_INDENTIFIER>';
+// TODO: Change to Sponsor Name: Must match keywords2013.js value and the XML directory names on Scrippsonline and FoodNetwork.com
+var $siSponsor = '<RSI_ID>';
+// TODO: Setup array of all keywords
+var keywords = ['keyword-1', 'keyword-2', 'keyword-3', 'keyword-n'];
+
 // get the domain
 var $siDomainName = 'http://' + window.location.hostname;
 var $siKeyword = '';
@@ -66,7 +69,9 @@ if( $.inArray( 'keyword1', keytermSet ) > -1 || $.inArray( 'keyword2', keytermSe
  * ==========================================
 */
 
-
+/*================================================
+=            DO NOT CHANGE BELOW CODE            =
+================================================*/
 if (isMB) {
   console.log("Matched Recipe Set:");
   $(matchedRecipeSet).each(function(k,i){
@@ -108,7 +113,6 @@ if( matchedRecipeSet.length > 1 ) {
 
 
 if( $centerResult ) {
-
   // render center template and insert into page
   centerTemplate = centerTemplate.replace(/\{\{title\}\}/g, centerRecipe.title );
   centerTemplate = centerTemplate.replace(/\{\{sponsor\}\}/g, centerRecipe.sponsor );
@@ -129,11 +133,9 @@ if( $centerResult ) {
 // END CENTER RESULT BLOCK ///////////
 // ///////////////////////////////////
 
-// include keywords.js
-var $kwScript = document.getElementsByTagName('head')[0].appendChild(document.createElement('script'));
-$kwScript.type = 'text/javascript';
-$kwScript.language = 'javascript';
-$kwScript.src = $siAssetsPath + 'keywords2013.js';
+// Removed keywords.js dependency
+var _keywordList = {};
+_keywordList[$siSponsor] = keywords;
 
 function $siStartup() {
   var exactMatch = false;

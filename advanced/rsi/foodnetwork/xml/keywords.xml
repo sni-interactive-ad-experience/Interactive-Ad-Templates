@@ -28,7 +28,7 @@
   <recipe>
     <name>RECIPE_TITLE</name>
     <image>IMAGE_FILENAME</image>
-    <linkId><![CDATA[RECIPE CLICK (REMOVE http://)]]></linkId>
+    <linkId><![CDATA[RECIPE CLICKTAG (REMOVE http://)]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -36,7 +36,8 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[RECIPE CLICK (REMOVE http://)]]></var1Link>
+    <var1Link><![CDATA[RECIPE CLICKTAG (REMOVE http://)]]></var1Link>
+    <!-- Set to 1 to open in new window -->
     <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
