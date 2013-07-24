@@ -1,64 +1,8 @@
 # Creative Services Templates
-More detailed description will go here.
+This is the central repository for Creative Services product templates. This allows employees and vendors to always have access to the most current template versions.
 
+**It very important that each new project is started using the latest versions in this repository as the templates can change.**
 
+*If you are unsure if a version you are using is up-to-date, you may browse the commit history for your template to see what changes have been made.*
 
-## To Do List
-### Brandscapes
-- HGTV
-- FoodNetwork
-- TravelChannel
-- Food.com
-- CookingChannelTv.com
-- RachaelRay.com
-- DIYNetwork.com
-- Frontdoor.com
-- HGTVRemodels.com
-- GACTV.com
-
-### Pushdowns
-- ~~HGTV~~
-- ~~FoodNetwork~~
-- ~~TravelChannel~~
-- Food.com
-- CookingChannelTv.com
-- RachaelRay.com
-- DIYNetwork.com
-- Frontdoor.com
-- HGTVRemodels.com
-- GACTV.com
-
-### Outstanding Issues
-- FrontDoor.com
-	- onReady function
-	- separate call to swfObject on adimages
-	- no function calls inside onReady function for SWF
-
-- TravelChannel.com
-	- add class function 'brandscape' or 'pushdown'
-	- text-align:center;margin:0 auto;
-
-### 300x600's
-- carousels (html & flash)
-
-### Product Modules
-- image carousels (site specific)
-
-### Sidescapes
-- Expanding 336x860's & 300x600's
-- iframe buster
-
-### Flash Video Template
-
-### Pushdown Template
-
-### Overlays
-
-### Billboards
-
-### Hover
-- Flash
-- Non-flash
-
-### Front Door Search Integration
-- Big deal.
+This is a public repository and should be used for non-sensitive content.
