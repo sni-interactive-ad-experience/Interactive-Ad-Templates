@@ -8,8 +8,6 @@
  <!-- Disable ad server impression counting. Internal counts are handled by creative due to screen size detection affecting whether ad runs or not. DO NOT REMOVE -->
  <!-- $smartcounturlenc$ -->
 
- <div id="track" style="display:none;"><IMG SRC="" BORDER=0 WIDTH=1 HEIGHT=1 ALT=""></div>
-
 <style>
   @charset "UTF-8";
   /* CSS Document */
@@ -59,11 +57,15 @@
  // JavaScript Document
 
  $(document).ready(function(){
+   //call test function
+  detectWidth();
+ });
+
+  function detectWidth(){
   // Set impression tag here.
   var impTag = '<img src="" height="1" width="1" style="display:none;"/>';
   impTag = impTag.replace(/\$random\$/, (new Date()).getTime());
-
-  function detectWidth(){
+  
     if ( $(window).width() > 1024) {
         $(".sidescape").show();
         $('.sidescapeTracking').append(impTag);
@@ -72,14 +74,12 @@
     }
   }
 
-  //call test function
-  detectWidth();
+ 
 
   //if window resize check to see if sidescape should be visible
   $(window).resize(function() {
     detectWidth();
   });
- });
 
 
  </script>
@@ -96,5 +96,6 @@
       <img src="http://adimages.scrippsnetworks.com/iax/wildwood/2013/sidescape/img/wildwood_right.jpg">
     </a>
   </div>
+  <div class="sidescapeTracking"></div>
 </div>
  <!-- END SIDSCAPE -->
