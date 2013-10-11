@@ -1,101 +1,28 @@
 <!--
-  Name: uLive.com Sidescape Template
-  Version: 1.0
-  Compatible Sites: uLive.com
-  Modified: 08-08-2013
- -->
-
- <!-- Disable ad server impression counting. Internal counts are handled by creative due to screen size detection affecting whether ad runs or not. DO NOT REMOVE -->
- <!-- $smartcounturlenc$ -->
-
-<style>
-  @charset "UTF-8";
-  /* CSS Document */
-  .sidescape{
-    position:fixed;
-    width: 970px;
-    top:44px; /* Offset for uLive top nav */
-    z-index:1000;
-    height: 0;
-    margin: 0 auto;
-  }
-  .player-component,
-  .video-meta-component{
-   background: #fff;
-  }
-
-    .sidescapeLeft{
-      position:relative;
-      left:-400px; /* negative width of left element */
-      float:left;
-    }
-    .sidescapeRight{
-      position:relative;
-      right: -400px; /* negative width of right element */
-      float:right;
-    }
- /*Hide if below 1024px*/
-  @media screen and (min-width: 1024px){
-    body{
-      background-image:none;
-      background-color: #016224;
-    }
-  }
-</style>
-
- <!--[if lt IE 9]>
- <style type="text/css">
-     body{
-         background-image:none;
-         background-color: #ffce61;
-     }
- </style>
- <![endif]-->
-
- <!-- Impression tag is set in this file. -->
- <script type="text/javascript">
- // JavaScript Document
-
- $(document).ready(function(){
-   //call test function
-  detectWidth();
- });
-
-  function detectWidth(){
-  // Set impression tag here.
-  var impTag = '<img src="" height="1" width="1" style="display:none;"/>';
-  impTag = impTag.replace(/\$random\$/, (new Date()).getTime());
-  
-    if ( $(window).width() > 1024) {
-        $(".sidescape").show();
-        $('.sidescapeTracking').append(impTag);
-    } else {
-        $(".sidescape").hide();
-    }
-  }
-
- 
-
-  //if window resize check to see if sidescape should be visible
-  $(window).resize(function() {
-    detectWidth();
-  });
-
-
- </script>
-
+/*=======================================
+=            Sidescape Setup            =
+========================================*/
+-->
+<!--
+ Name: NEW uLive.com Sidescape Template
+ Version: 1.0
+ Compatible Sites: uLive.com
+ Modified: 10-11-2013
+-->
+<!-- Impression tag is set in this file. -->
+<img src="[1x1 url]" height="1" width="1" style="display:none;"/>
+<link rel="stylesheet" type="text/css" href="sidescape.css" >
 <!-- Update left and right image and cliktags below -->
 <div class="sidescape">
-  <div class="sidescapeLeft">
-    <a href="http://ad.doubleclick.net/clk;273010931;98692221;e?http://www.wildwoodfoods.com/" target="_blank"><!-- insert clickTag here -->
-      <img src="http://adimages.scrippsnetworks.com/iax/wildwood/2013/sidescape/img/wildwood_left.jpg">
-    </a>
-  </div>
-  <div class="sidescapeRight">
-    <a href="http://ad.doubleclick.net/clk;273010931;98692221;e?http://www.wildwoodfoods.com/" target="_blank"><!-- insert clickTag here -->
-      <img src="http://adimages.scrippsnetworks.com/iax/wildwood/2013/sidescape/img/wildwood_right.jpg">
-    </a>
-  </div>
-  <div class="sidescapeTracking"></div>
+ <div class="sidescapeLeft">
+   <a href="[tracking url]" target="_blank">
+     <img src="[url to left sidescape image]">
+   </a>
+ </div>
+ <div class="sidescapeRight">
+   <a href="[tracking url]" target="_blank">
+     <img src="[url to right sidescape image]">
+   </a>
+ </div>
 </div>
- <!-- END SIDSCAPE -->
+<!-- END SIDESCAPE -->
