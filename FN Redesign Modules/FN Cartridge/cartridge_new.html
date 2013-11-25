@@ -1,0 +1,155 @@
+<!--
+
+These modules have been tested on the Food Network redesigned site as of November 25, 2012 - it is possible that there will be changes to the framework of the site before launch, so these modules may change as the site is updated. Please note that none of these templates will work on the OLD version of foodnetwork.com - if you have any questions, please contact jpawelek@scrippsnetworks.com 
+
+-->
+
+
+<!-- cartridge container -->
+<style>
+#sponsorCtr1{
+	display:block;
+}
+
+.sponsored_header{
+	position:absolute;
+	top:-8px;
+	left:245px;
+	background-color:#FFFFFF;
+	padding: 0px 15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14px;
+}
+
+.cartridge_module{
+	position:relative;
+	float:left;
+	width:100%;
+	margin:20px auto;
+	border-top:4px double #cccccc;
+	border-bottom: 4px double #cccccc;
+	padding:20px 0px;
+}
+
+.cart_img{
+	float:left;
+	width:340px;
+}
+
+.cart_img img{
+	float:left;
+	width:160px;
+	height:auto;
+	margin-right:10px;
+}
+
+.cart_img p{
+	float:left;
+	font-family:"Demi Condensed Medium";
+	font-size:24px;
+	width:170px;
+	color:#323232;
+	margin-bottom:5px;
+}
+
+.cart_img a{
+	color:#323232;
+	text-decoration:none;
+}
+
+.cart_img a:hover{
+	color:#323232;
+	text-decoration:none;
+}
+
+
+.cart_img cite{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.cart_more{
+	float: left;
+border-left: 1px dotted #6a6a6a;
+padding-left: 25px;
+}
+
+.cart_more h6{
+	float:left;
+	font-family:"Demi Condensed Medium";
+	font-size:18px;
+	color:#323232;
+	margin-bottom:10px;
+}
+
+.cart_more_list li{
+	margin-bottom:5px;
+}
+
+.cart_more_list li a:before {
+content: "»";
+color: #ff584e;
+margin-left: -10px;
+margin-right: 5px;
+font-size:14px;
+text-decoration:none !important;
+	     }
+.cart_more_list li a {
+text-decoration:none !important;
+color:#323232;
+	     }	
+.cart_more_list li a:hover{
+	color: #ff584e;
+}
+
+</style>
+
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function() {
+  var UID = mdManager.getParameter("UniqueId"); // Use this to lock to page if needed
+  var targetUID = "FOOD-TEXT-72546-1"; // Locked to: http://www.foodnetwork.com/thanksgiving-leftovers/package/index.html
+  var myIDElement = document.getElementById('sponsorCtr1');
+  var loaded = false;
+  if (UID != targetUID) {
+    // Set to escaped markup. I use http://accessify.com/tools-and-wizards/developer-tools/html-javascript-convertor/ to save time.
+// build HTML content
+var syncedContent="";
+syncedContent += "<div class=\"cartridge_module\">";
+syncedContent += "<div class=\"sponsored_header\">Sponsored Recipes<\/div>";
+syncedContent += "<div class=\"cart_img\">";
+syncedContent += "<a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094480&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/ultra-creamy-mashed-potatoes-recipe2\/index.html\">";
+syncedContent += "<img src=\"http:\/\/img.foodnetwork.com\/FOOD\/2013\/09\/19\/RX-SWANSON_Ultra-Creamy-Mashed-Potatoes_s4x3_med.jpg\" width=\"120\" height=\"90\" alt=\"Ultra Creamy Mashed Potatoes\"> <\/a>";
+syncedContent += "<p><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094480&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/ultra-creamy-mashed-potatoes-recipe2\/index.html\">Ultra Creamy Mashed Potatoes<\/a><\/p>";
+syncedContent += "<cite>Courtesy of <a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094479&Redirect=http:%2f%2fwww.campbellskitchen.com\/swanson\/home\" target=\"_blank\"><i>Swanson<sup>&reg;<\/sup><\/i><\/a><\/cite>";
+syncedContent += "<\/div>";
+syncedContent += "<div class=\"cart_more\">";
+syncedContent += "<h6>More recipes from <i>Swanson&reg;<\/i><\/h6>";
+syncedContent += "<ul class=\"cart_more_list\">";
+syncedContent += "<li><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094481&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/herb-roasted-turkey-with-pan-gravy-recipe\/index.html\">Herb Roasted Turkey w\/ Pan Gravy<\/a><\/li>";
+syncedContent += "<li><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094482&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/thai-chicken-vegetable-soup-recipe\/index.html\">Thai Chicken Vegetable Soup<\/a><\/li>";
+syncedContent += "<li><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094483&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/moist-savory-stuffing-recipe2\/index.html\">Moist & Savory Stuffing<\/a><\/li>";
+syncedContent += "<li><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094484&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/butternut-squash-soup-with-sage-recipe\/index.html\">Butternut Squash Soup with Sage<\/a><\/li>";
+syncedContent += "<\/ul>";
+syncedContent += "<\/div>";
+syncedContent += "<\/div>";
+//impression tag
+syncedContent += "<img src=\"http:\/\/adsremote.scrippsnetworks.com\/image.ng\/site=FOOD&adtype=TRACKING&TRACKING=FOOD_13OCT02_DEL_MONTE_THANKSGIVING_LO_OVERALL_1X1&adsize=1x1&PagePos=1\" border=0>";
+//end impression tag
+
+ // Write to page
+    if (myIDElement && !loaded) {
+      $('#sponsorCtr1').html(syncedContent);
+      $('#sponsorCtr1').show();
+      loaded = true;
+    } else {
+        // Missing sponsorCtr1. Appending to graphic lead module.
+        $('.graphic-lead').after("<div id='sponsorCtr1' style='display:block;'>" + syncedContent + '<div>');
+        loaded = true;
+    }
+  } // End UID check
+});
+</script>
+
+<!-- end cartride container -->
