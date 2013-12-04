@@ -1,0 +1,22 @@
+.site-wrapper, #site-wrapper {
+  background:url() no-repeat top;
+  min-width:1002px;
+} /* #site-wrapper - diynetwork.com */
+
+#hg-bd-wrap {
+  margin-top:0;
+}
+#pushdown_adtag .iax-inner{
+  height:175px;
+  width:994px;
+}
+#{{CLIENT_NAME}}-wrap {
+  width:994px;
+  height:175px;
+}
+body {
+  background:#{{BRANDSCAPE_BACKGROUND_COLOR}};
+}
+.super-lead {
+  margin:0px auto 14px;
+}
