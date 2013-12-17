@@ -30,14 +30,12 @@ height:105px;
 	  width:100%;
 	  float:left;
   }
-  .tip_module h4{
-	 font-size:28px;
-	 font-family: "Book Extra Compressed";
+  .tip_module h5{
 	 color:#131313;
 	 text-transform:uppercase;
 	 font-weight:normal;
-	 margin-top:18px;
-	 margin-bottom:8px;
+	 margin-top:12px;
+	 margin-bottom:12px;
 	 text-align:left;
   }
 
@@ -90,16 +88,30 @@ right: 28px !important;
 	float:left;
 	text-align:left;
 	width:120px;
-	font-size: 1.1rem;
-font-family: Arial, Helvetica, sans-serif;
+font-family: "Lucida Grande",Helvetica,Arial,sans-serif;
+font-size: 1.3rem;
+font-weight: normal;
 color: #1c1c1c;
 margin-bottom: 5px;
 }
 
-.tips_text a {
-font-size: 12px !important;
-font-family: Arial, Helvetica, sans-serif;
-color: #f61422 !important;
+.tips_text a{
+	text-decoration:none !important;
+	
+}
+
+.tips_text a:hover{
+	color: #ff584e !important;
+}
+
+.tips_text a:before {
+float:left;
+content: "»";
+color: #ff584e;
+margin-right: 5px;
+font-size: 14px;
+line-height:14px;
+text-decoration: none !important;
 }
 
 .crsl.vert.carousel-tips .btn.direct.med>i {
@@ -114,7 +126,7 @@ left: 5px;
 <!--end demo code block -->
 <!-- START Food Network Right Rail Carousel Module -->
 <div class="carousel_title_bar"></div>
-<h4>Demo Tip Module</h4>
+<h5>Demo Tip Module</h5>
 
 <!--start carousel-->
 <div class="crsl vert carousel-tips" id="carousel-tips" data-nav="indices" data-scale="false" style="">
@@ -190,11 +202,6 @@ left: 5px;
 </div>
 <!-- End Sponsorship -->
 </div>
-<!-- impression tag -->
-<div style="display:none;">
-  <img src="[image_url_here]" border="0" width="1" height="1" alt="Advertisement">
-</div>
-<!-- end impression tag -->
 <script type="text/javascript" charset="utf-8">
  jQuery(document).ready(function($) {
   $('#tip_carousel').royalSlider({

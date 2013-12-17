@@ -1,0 +1,370 @@
+/* ================== */
+/* = FN Redesign ASI Global CSS
+/* = UPDATED 12/9/2013 
+/* ================== */
+
+/* SAMPLE */
+
+#asi-module{
+position: relative;
+width: 306px;
+height:auto;
+overflow:auto;
+padding: 8px;
+background-color: #FFFFFF;
+margin-left: 8px;
+-webkit-box-shadow: 1px 2px 5px 0 rgba(0,0,0,0.19);
+-moz-box-shadow: 1px 2px 5px 0 rgba(0,0,0,0.19);
+box-shadow: 1px 2px 5px 0 rgba(0,0,0,0.19);
+margin-bottom:14px;
+}
+
+#asi-module .ft{
+	border-top: 1px dotted #ccc;
+}
+
+#asi-module .title_bar{
+	  background-color:#000000;
+	  height:5px;
+	  width:100%;
+	  float:left;
+	  margin-bottom:10px;
+  }
+  
+  #asi-module #recipeListContainer li  {
+float:left;
+width:100%;
+text-align:left;
+}
+
+
+#asi-module #recipeListContainer li .title {
+font-family: "Demi Condensed Medium";
+font-size: 18px;
+color:#000000;
+}
+
+#asi-module #recipeListContainer li .title a{
+color:#000000;
+line-height:18px;
+}
+
+#asi-module #rz-e #asi-module .hd h4{
+  font-size:28px;
+	 font-family: "Book Extra Compressed";
+	 color:#131313;
+	 text-transform:uppercase;
+	 font-weight:normal;
+	 margin-top:18px;
+	 margin-bottom:8px;
+	 text-align:left;
+}
+
+#asi-module .promo .hd h4 {
+background: none !important;
+padding: 0;
+}
+
+#asi-module .promo h4 {
+  font-size:28px;
+  color:#000000;
+	 font-family: "Book Extra Compressed";
+	 color:#131313;
+	 text-transform:uppercase;
+	 font-weight:normal;
+	 margin-top:18px;
+	 margin-bottom:8px;
+	 text-align:left;
+}
+
+div.promo.mini-ad .hd h4 {
+color: #000000;
+}
+
+div.promo.mini-ad .hd {
+zoom: 1;
+background-color: none !important;
+background: none !important;
+}
+
+.pod {
+margin-bottom: 14px;
+margin-top:-18px;
+background-color: none !important;
+background: none !important;
+}
+
+.pod .ft {
+padding: 0;
+background-color: none !important;
+background: none !important;
+clear: both;
+}
+
+.pod .bd {
+border: none !important;
+padding: 0 4px;
+}
+
+#recipeListContainer li img {
+margin: 0px
+}
+.promo .bd img {
+float: left;
+padding: 1px;
+border: 1px solid #d4d4d4;
+margin: 5px 7px 9px 10px;
+}
+
+#recipeListContainer li .asi-inner {
+width: 150px !important;
+text-align: left;
+float: left;
+}
+
+#sponsorCtr2 .sponsor{
+	text-align:left;
+}
+
+#sponsorCtr2 h3 a{
+	  font-size:28px;
+  color:#000000;
+	 font-family: "Book Extra Compressed";
+	 color:#131313;
+	 text-transform:uppercase;
+	 font-weight:normal;
+	 margin-top:18px;
+	 margin-bottom:8px;
+	 text-align:left;
+	 line-height:32px;
+}
+
+#sponsorCtr2 .sponsor_link{
+	color:#f91624;
+}
+
+#sponsorCtr2 #results .detail {
+margin: 2px 0 0;
+padding-bottom: 25px;
+clear: left;
+float: left;
+width: 326px;
+}
+
+
+/******************** Recipe List Container Section ********************/
+#recipeListContainer{
+  margin:0 10px;
+  font-size: 12px;
+}
+
+/******************** Recipe List Container Section ********************/
+#asi-module p{
+  width: auto;
+}
+#recipeListContainer{
+	text-align:left;
+}
+
+#recipeListContainer li img{
+	float:left;
+	width:92px;
+	margin-right:10px;
+	border: none;
+}
+
+#recipeListContainer li{
+	float:left;
+	width:100%;
+	height:90px;
+}
+
+#recipeListContainer li .title{
+	float: left;
+font-family: "Demi Condensed Medium";
+line-height:1rem;
+font-size: 1.6rem;
+width:200px;
+margin-bottom:5px
+}
+
+#recipeListContainer li .title a{
+color: #131313;
+}
+
+/******************** No Image List Item Section ********************/
+#recipeListContainer.no-image{
+  margin:0 7px;
+}
+#recipeListContainer.no-image li {
+  background: url(http://images.foodnetwork.com/webfood/fn20/imgs/bullet-grey.png) no-repeat left 9px;
+  border:none;
+  padding:0;
+  padding-left: 11px;
+  line-height: 1.6em;
+}
+
+/******************** See-All Link Section ********************/
+#see-all{
+  margin:0;
+  width:326px;
+  border-top: 1px dotted #d3d3d3;
+}
+#see-all li {
+  background: none;
+}
+#see-all li a.icon{
+  background: url(http://images.foodnetwork.com/webfood/images/sales/search_integration/asi_assets/images/see-all-icon.png) no-repeat;
+  text-align: left;
+  display:block;
+  height:20px;
+  line-height: 20px;
+  margin: 7px;
+  text-indent: 24px;
+}
+
+/******************** ASI Variable Links Section ********************/
+.asi-variable-links {
+float:left;
+font-size: 1.2rem !important;
+font-family: "Lucida Grande",Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+margin-left: 10px;
+text-decoration: none;
+margin-top: 0px !important;
+}
+
+.asi-variable-links a{
+	text-decoration:none !important;
+}
+
+.asi-variable-links a:hover{
+	text-decoration:underline !important;
+}
+
+.asi-variable-links a:before {
+float:left;
+content: "»";
+color: #ff584e;
+margin-left: -10px;
+margin-right: 5px;
+font-size: 14px;
+line-height:14px;
+text-decoration: none !important;
+}
+
+.get_link a{
+	text-decoration:none !important;
+	color:#1c1c1c;
+	margin-top:5px;
+}
+
+.get_link a:hover{
+	color: #ff584e;
+	text-decoration: underline !important;
+}
+
+.get_link a:before {
+float:left;
+content: "»";
+color: #ff584e;
+margin-right: 5px;
+font-size: 14px;
+line-height:14px;
+text-decoration: none !important;
+}
+
+
+/******************** Misc Core Overrides Section ********************/
+#asi-module .ft p {
+  text-align: right;
+  float:right;
+  width:110px;
+  margin-top:10px;
+}
+#asi-module .ft p span {
+	float:left;
+	margin-top:12px;
+}
+/* =========================== */
+/* = Food.com Styles Section = */
+/* =========================== */
+
+#rz-e #recipeListContainer li {
+  list-style: none;
+  background: transparent;
+  padding: 7px 0;
+  line-height: 15px;
+  border: none;
+}
+#rz-e #asi-module .bd .asi-inner {
+  width: 182px;
+  text-align: left;
+  float:left;
+}
+#rz-e #asi-module .bd img {
+  margin: 0 14px 0 0;
+  float: left;
+  padding: 1px;
+  border: 1px solid #d4d4d4;
+}
+#rz-e #recipeListContainer {
+  width: 294px;
+  margin: 0 7px;
+}
+#rz-e #recipeListContainer li p.title {
+  padding: 0px;
+  font-family: "Demi Condensed Medium";
+  font-weight: normal;
+  line-height: 15px;
+  font-size: 18px;
+  background: transparent;
+}
+#rz-e #asi-module .ft {
+  font-size: 10px;
+  padding-top: 7px;
+  border-top: 1px solid #D8D8D8;
+  width: 294px;
+  margin: 0 7px;
+}
+#rz-e #asi-module .ft p {
+  text-align: right;
+}
+#rz-e #asi-module .ft p span {
+  margin-top: 10px;
+  margin-right: 8px;
+  line-height: 37px;
+  vertical-align: baseline;
+  color: #666;
+}
+#rz-e #asi-module .ft img {
+  vertical-align: middle;
+}
+#rz-e #recipeListContainer li + li {
+  border-top: 1px solid #D3D3D3;
+}
+#rz-e #asi-module .asi-variable-links {
+  display: block;
+  float: left;
+  font-size: 11px;
+  line-height: 14px;
+  margin: 0;
+}
+
+/* Center Recipe Rules */
+#rz-bd #sponsorCtr2 .asi-food-center {
+  padding-bottom: 3px;
+  margin-bottom: 7px;
+  line-height: 16px;
+  width: 100%;
+}
+#rz-bd #sponsorCtr2 .asi-food-center a {
+  font-weight: bold;
+}
+
+#rz-bd #sponsorCtr2 .highlightClass {
+  float: none;
+  margin-right: 0;
+  margin-top: 0px;
+  font-weight: normal;
+}

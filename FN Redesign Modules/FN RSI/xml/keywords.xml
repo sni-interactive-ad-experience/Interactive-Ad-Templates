@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<recipes>
+	<baseURL><![CDATA[http://]]></baseURL>
+	<!-- viewTracker: the Impression Tag. Include http://  -->
+	<viewTracker><![CDATA[]]></viewTracker>
+  <!-- maxRecipeDisplay: # of Recipes to Display. If more recipes in XML random recipes will be selected. -->
+  <maxRecipeDisplay>4</maxRecipeDisplay>
+  <!-- Links for Sponsored Result. -->
+  <featured>
+      <name></name>
+      <image></image>
+      <!-- linkId: Link to recipe. Exclude http:// -->
+      <linkId><![CDATA[]]></linkId>
+      <!-- linkId2: URL for "Sponsored By" link. Exclude http:// -->
+      <linkId2><![CDATA[]]></linkId2>
+      <videoAvailable></videoAvailable>
+      <difficulty></difficulty>
+      <prepTime></prepTime>
+      <healthyLiving></healthyLiving>
+      <rating></rating>
+      <trackingTag></trackingTag>
+      <totalTime></totalTime>
+      <ingredients></ingredients>
+  </featured>
+
+  <!--  Right Rail Module Recipes -->
+  <!-- Create one of these nodes for each recipe that is listed in the marquee sheet of the Exile document. -->
+  <recipe>
+    <name>RECIPE_TITLE</name>
+    <image>IMAGE_FILENAME</image>
+    <linkId><![CDATA[RECIPE CLICKTAG (REMOVE http://)]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[RECIPE CLICKTAG (REMOVE http://)]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>KEYWORD 1</keyword>
+      <keyword>KEYWORD 2</keyword>
+      <keyword>KEYWORD 3</keyword>
+      <keyword>KEYWORD 4</keyword>
+      <keyword>KEYWORD 5</keyword>
+    </keywords>
+  </recipe>
+
+</recipes>

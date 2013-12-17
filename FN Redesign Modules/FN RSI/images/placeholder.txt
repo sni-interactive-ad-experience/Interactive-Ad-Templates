@@ -1,0 +1,1 @@
+Hold folder place for github. You RSI images will go in this directory.
