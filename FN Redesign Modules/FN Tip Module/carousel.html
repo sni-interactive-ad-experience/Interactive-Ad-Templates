@@ -1,15 +1,8 @@
-<!--
-
-These modules have been tested on the Food Network redesigned site as of November 25, 2012 - it is possible that there will be changes to the framework of the site before launch, so these modules may change as the site is updated. Please note that none of these templates will work on the OLD version of foodnetwork.com - if you have any questions, please contact jpawelek@scrippsnetworks.com 
-
--->
-
-<!-- module placeholder -->
 <style>
 .tip_module{
 position: relative;
 width: 306px;
-height: 200px;
+height: 260px;
 padding: 8px;
 background-color: #FFFFFF;
 margin-left: 8px;
@@ -19,9 +12,10 @@ margin-top: 20px;
 box-shadow: 1px 2px 5px 0 rgba(0,0,0,0.19);
 }
 
+
 #carousel-tips{
-width:100%;
-height:105px;	
+width:310px;
+height:125px;	
 }
 
   .carousel_title_bar{
@@ -58,8 +52,12 @@ height:105px;
 	margin-right:-10px;
 }
 
+.sponsor_content span{
+	margin-top:20px !important;
+}
+
 .carousel-tips.vert .vert-bar.right {
-right: 28px !important;
+right: 26px !important;
 }
 
 .crsl.vert.carousel-tips .group {
@@ -122,97 +120,132 @@ left: 5px;
 
 </style>
 
-<div class="tip_module">
-<!--end demo code block -->
-<!-- START Food Network Right Rail Carousel Module -->
-<div class="carousel_title_bar"></div>
-<h5>Demo Tip Module</h5>
-
-<!--start carousel-->
-<div class="crsl vert carousel-tips" id="carousel-tips" data-nav="indices" data-scale="false" style="">
-
-<!-- start group --> 
-<div class="group">
-<div class="tips_holder">
-<div class="tips_img">
-<a href="#">
-<img src="http://adimages.scrippsnetworks.com/iax/pam/2013/tip_module/cheese-tip2.jpg" width="92" height="69" alt="Pam">
- </a>
- </div>
-<div class="tips_text">
-<p>Some random text here...</p>
-<a href="#">Learn More</a>
-</div>
-</div>
-</div>
-<!-- end group -->
-
-<!-- start group --> 
-<div class="group">
-<div class="tips_holder">
-<div class="tips_img">
-<a href="#">
-<img src="http://adimages.scrippsnetworks.com/iax/pam/2013/tip_module/cheese-tip2.jpg" width="92" height="69" alt="Pam">
- </a>
- </div>
-<div class="tips_text">
-<p>Some random text here...</p>
-<a href="#">Learn More</a>
-</div>
-</div>
-</div>
-<!-- end group -->
-
-<!-- start group --> 
-<div class="group">
-<div class="tips_holder">
-<div class="tips_img">
-<a href="#">
- <img src="http://adimages.scrippsnetworks.com/iax/kohls/2013/recipe_box/product_module/fn1_nonstick_roaster.jpg" width="120" height="90" alt="">
- </a>
- </div>
-<div class="tips_text">
-<p>Some random text here...</p>
-<a href="#">Learn More</a>
-</div>
-</div>
-</div>
-<!-- end group -->    
-
-    
-    
-	
-    
-   
-</div>
-
-
-<!--end carousel-->
-
-<!-- Start sponsorship -->
-<div class="sponsor">
-<div class="sponsor_content">
-<span>
-  Sponsored by
-  </span>
-  <a target="_blank" href="http://ad.doubleclick.net/ddm/trackclk/N4637.152259.FOODNETWORK.COM/B7928641.33;dc_trk_aid=277278643;dc_trk_cid=56324165;ord=$random$?http://www.kohls.com/feature/foodnetwork.jsp?cid=DM13FallRecipes67">
-    <img src="http://adimages.scrippsnetworks.com/iax/kohls/2013/recipe_box/product_module/Kohls_115x24.gif" alt="Sponsored by Kohl's"/>
-  </a>
-  </div>
-</div>
-<!-- End Sponsorship -->
-</div>
 <script type="text/javascript" charset="utf-8">
- jQuery(document).ready(function($) {
-  $('#tip_carousel').royalSlider({
-	  autoScaleSliderWidth: 300,
-	  controlNavigation: 'bullets',
-	  loop: true,
-	  controlsInside: true,
+  $(document).ready(function(){
+  var UID = mdManager.getParameter ("UniqueID");
+  // Sniffer Stacker URLS
+  if ( UID == 'food|universal-landing|db20b3ed-7a58-4268-9aab-455ac7e09db7|1') {
+	  $(".tip_module").show();
 	  
+//dynamically add image tags for 1x1 and research
+
+var imageTags="";
+imageTags += "<!--1X1-->";
+imageTags += "<img src=\"http:\/\/view.atdmt.com\/BPY\/view\/469307658\/direct\/01\/\" border=0>";
+imageTags += "<!--Research Tag -->";
+imageTags += "<img src=\"http:\/\/b.scorecardresearch.com/p?c1=3&c2=13515323&c3=APPL-APN-014-01-BPY&c4=340131227_563594_14&c5=469307658&c6=&c10=1&c11=&c12=&c13=1x1&c16=atls&cj=1&ax_fwd=1&rn=[TIMESTAMP]\" border=0>";
+
+
+$(".image_tags").html(imageTags);
+//////////////////////////////////////////////////
+
+//ADD CAROUSEL
+var carousel="";
+carousel += "<div class=\"carousel_title_bar\"><\/div>";
+carousel += "<h5><a href=\"http:\/\/clk.atdmt.com\/BPY\/go\/469307658\/direct\/01\/ \" target=\"_blank\">4 Healthy Eating Tips to Start The Year Off Right<\/a><\/h5>";
+carousel += "";
+carousel += "<!--start carousel-->";
+carousel += "<div class=\"crsl vert carousel-tips\" id=\"carousel-tips\" data-nav=\"indices\" data-scale=\"false\" style=\"\">";
+carousel += "";
+carousel += "<!-- start group --> ";
+carousel += "<div class=\"group\">";
+carousel += "<div class=\"tips_holder\">";
+carousel += "<div class=\"tips_img\">";
+carousel += "<a href=\"http:\/\/clk.atdmt.com\/BPY\/go\/469307658\/direct\/01\/ \" target=\"_blank\">";
+carousel += "<img src=\"http:\/\/adimages.scrippsnetworks.com\/iax\/applebees\/2014\/tip_modules\/steak_roma_pepper.jpg\" width=\"92\" height=\"69\" alt=\"Applebee's\">";
+carousel += " <\/a>";
+carousel += " <\/div>";
+carousel += "<div class=\"tips_text\">";
+carousel += "<p>Set yourself delicious boundaries and stick to them. Just don't be too hard on yourself. That makes it easier to quit.<\/p>";
+carousel += "<\/div>";
+carousel += "<\/div>";
+carousel += "<\/div>";
+carousel += "<!-- end group -->";
+carousel += "";
+carousel += "<!-- start group --> ";
+carousel += "<div class=\"group\">";
+carousel += "<div class=\"tips_holder\">";
+carousel += "<div class=\"tips_img\">";
+carousel += "<a href=\"http:\/\/clk.atdmt.com\/BPY\/go\/469307658\/direct\/01\/ \" target=\"_blank\">";
+carousel += "<img src=\"http:\/\/adimages.scrippsnetworks.com\/iax\/applebees\/2014\/tip_modules\/creamy_parmesan_chicken.jpg\" width=\"92\" height=\"69\" alt=\"Applebee's\">";
+carousel += " <\/a>";
+carousel += " <\/div>";
+carousel += "<div class=\"tips_text\">";
+carousel += "<p>Obey your cravings, but be smart about it. Dying for your favorite ingredients? Moderation is key.<\/p>";
+carousel += "<\/div>";
+carousel += "<\/div>";
+carousel += "<\/div>";
+carousel += "<!-- end group -->";
+carousel += "";
+carousel += "<!-- start group --> ";
+carousel += "<div class=\"group\">";
+carousel += "<div class=\"tips_holder\">";
+carousel += "<div class=\"tips_img\">";
+carousel += "<a href=\"http:\/\/clk.atdmt.com\/BPY\/go\/469307658\/direct\/01\/ \" target=\"_blank\">";
+carousel += " <img src=\"http:\/\/adimages.scrippsnetworks.com\/iax\/applebees\/2014\/tip_modules\/salmon_savory_cedar.jpg\" width=\"92\" height=\"69\" alt=\"\">";
+carousel += " <\/a>";
+carousel += " <\/div>";
+carousel += "<div class=\"tips_text\">";
+carousel += "<p>Fresh veggies and lean proteins are key. Feel free to eat as much as you’d like of these ingredients.<\/p>";
+carousel += "<\/div>";
+carousel += "<\/div>";
+carousel += "<\/div>";
+carousel += "<!-- end group -->  ";
+carousel += "";
+carousel += "<!-- start group --> ";
+carousel += "<div class=\"group\">";
+carousel += "<div class=\"tips_holder\">";
+carousel += "<div class=\"tips_img\">";
+carousel += "<a href=\"http:\/\/clk.atdmt.com\/BPY\/go\/469307658\/direct\/01\/ \" target=\"_blank\">";
+carousel += " <img src=\"http:\/\/adimages.scrippsnetworks.com\/iax\/applebees\/2014\/tip_modules\/dishes.jpg\" width=\"92\" height=\"69\" alt=\"\">";
+carousel += " <\/a>";
+carousel += " <\/div>";
+carousel += "<div class=\"tips_text\">";
+carousel += "<p>When cutting calories, make sure to save the flavor. Try lemon juice, vinegar or steaming instead of frying.<\/p>";
+carousel += "<\/div>";
+carousel += "<\/div>";
+carousel += "<\/div>";
+carousel += "<!-- end group -->    ";
+carousel += "<\/div>";
+carousel += "<!--end carousel-->";
+carousel += "<!-- Start sponsorship -->";
+carousel += "<div class=\"sponsor\">";
+carousel += "<div class=\"sponsor_content\">";
+carousel += "<span>";
+carousel += "  Sponsored by";
+carousel += "  <\/span>";
+carousel += "<a href=\"http:\/\/clk.atdmt.com\/BPY\/go\/469307658\/direct\/01\/ \" target=\"_blank\">";
+carousel += "    <img src=\"http:\/\/adimages.scrippsnetworks.com\/iax\/applebees\/2014\/tip_modules\/applebees_88x31.gif\" alt=\"Sponsored by Applebee's\"\/>";
+carousel += "  <\/a>";
+carousel += "  <\/div>";
+carousel += "<\/div>";
+carousel += "<!-- End Sponsorship -->";
+carousel += "<\/div>";
+$(".tip_module").html(carousel);
+$(".carousel-tips").each(function (idx, el) {
+  SNI.Food.Carousel({
+   wrapper: el,
+   controlNavigation: $(el).data('nav'),
+   variation: $(el).data('variation'),
+   allowCSS3: ($.browser.msie && $.browser.version == 10) ? false : true,
+            autoPlay: {
+                enabled: $(el).data('autoplay'),
+                pauseOnHover: true,
+                stopAtAction: false,
+                delay: 5000
+            }
+        });
+ });
+
+}
+else{
+	$(".tip_module").hide();
+}
+
   });
-});
-</script>
-<!-- END Food Network Right Rail Carousel Module -->
-</div>
-<!-- end module placeholder -->
+  
+  </script>
+  
+<div class="image_tags"></div>
+
+<div class="tip_module"></div>
