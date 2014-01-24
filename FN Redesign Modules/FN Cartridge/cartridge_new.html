@@ -88,14 +88,7 @@ padding-left: 25px;
 	margin-bottom:5px;
 }
 
-.cart_more_list li a:before {
-content: "»";
-color: #ff584e;
-margin-left: -10px;
-margin-right: 5px;
-font-size:14px;
-text-decoration:none !important;
-	     }
+
 .cart_more_list li a {
 text-decoration:none !important;
 color:#323232;
@@ -109,7 +102,7 @@ color:#323232;
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function() {
   var UID = mdManager.getParameter("UniqueId"); // Use this to lock to page if needed
-  var targetUID = "FOOD-TEXT-72546-1"; // Locked to: http://www.foodnetwork.com/thanksgiving-leftovers/package/index.html
+  var targetUID = "[enter UniqueID here]"; // Locked to: http://www.foodnetwork.com/thanksgiving-leftovers/package/index.html
   var myIDElement = document.getElementById('sponsorCtr1');
   var loaded = false;
   if (UID != targetUID) {
@@ -127,10 +120,10 @@ syncedContent += "<\/div>";
 syncedContent += "<div class=\"cart_more\">";
 syncedContent += "<h6>More recipes from Swanson&reg;<\/h6>";
 syncedContent += "<ul class=\"cart_more_list\">";
-syncedContent += "<li><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094481&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/herb-roasted-turkey-with-pan-gravy-recipe\/index.html\">Herb Roasted Turkey w\/ Pan Gravy<\/a><\/li>";
-syncedContent += "<li><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094482&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/thai-chicken-vegetable-soup-recipe\/index.html\">Thai Chicken Vegetable Soup<\/a><\/li>";
-syncedContent += "<li><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094483&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/moist-savory-stuffing-recipe2\/index.html\">Moist & Savory Stuffing<\/a><\/li>";
-syncedContent += "<li><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094484&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/butternut-squash-soup-with-sage-recipe\/index.html\">Butternut Squash Soup with Sage<\/a><\/li>";
+syncedContent += "<li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094481&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/herb-roasted-turkey-with-pan-gravy-recipe\/index.html\">Herb Roasted Turkey w\/ Pan Gravy<\/a><\/span><\/li>";
+syncedContent += "<li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094482&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/thai-chicken-vegetable-soup-recipe\/index.html\">Thai Chicken Vegetable Soup<\/a><\/span><\/li>";
+syncedContent += "<li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094483&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/moist-savory-stuffing-recipe2\/index.html\">Moist & Savory Stuffing<\/a><\/span><\/li>";
+syncedContent += "<li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094484&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/butternut-squash-soup-with-sage-recipe\/index.html\">Butternut Squash Soup with Sage<\/a><\/span><\/li>";
 syncedContent += "<\/ul>";
 syncedContent += "<\/div>";
 syncedContent += "<\/div>";

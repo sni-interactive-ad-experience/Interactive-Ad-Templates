@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <recipes>
-	<baseURL><![CDATA[http://]]></baseURL>
-	<!-- viewTracker: the Impression Tag. Include http://  -->
-	<viewTracker><![CDATA[]]></viewTracker>
+  <baseURL><![CDATA[http://]]></baseURL>
+  <!-- viewTracker: the Impression Tag. Include http://  -->
+  <viewTracker><![CDATA[]]></viewTracker>
   <!-- maxRecipeDisplay: # of Recipes to Display. If more recipes in XML random recipes will be selected. -->
   <maxRecipeDisplay>4</maxRecipeDisplay>
   <!-- Links for Sponsored Result. -->
@@ -12,7 +12,7 @@
       <!-- linkId: Link to recipe. Exclude http:// -->
       <linkId><![CDATA[]]></linkId>
       <!-- linkId2: URL for "Sponsored By" link. Exclude http:// -->
-      <linkId2><![CDATA[]]></linkId2>
+      <linkId2><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093408&Redirect=http:%2f%2fwww.fishernuts.com]]></linkId2>
       <videoAvailable></videoAvailable>
       <difficulty></difficulty>
       <prepTime></prepTime>
@@ -26,9 +26,9 @@
   <!--  Right Rail Module Recipes -->
   <!-- Create one of these nodes for each recipe that is listed in the marquee sheet of the Exile document. -->
   <recipe>
-    <name>RECIPE_TITLE</name>
-    <image>IMAGE_FILENAME</image>
-    <linkId><![CDATA[RECIPE CLICKTAG (REMOVE http://)]]></linkId>
+    <name>Ricotta Cheese and Basil Flatbread</name>
+    <image>ricotta_cheese_and_basil_flatbread.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093384&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Ricotta-Cheese-and-Basil-Flatbread]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -36,18 +36,561 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[RECIPE CLICKTAG (REMOVE http://)]]></var1Link>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093384&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Ricotta-Cheese-and-Basil-Flatbread]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var1LinkNewWindow>1</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>KEYWORD 1</keyword>
-      <keyword>KEYWORD 2</keyword>
-      <keyword>KEYWORD 3</keyword>
-      <keyword>KEYWORD 4</keyword>
-      <keyword>KEYWORD 5</keyword>
+      <keyword>Appetizer</keyword>
+      <keyword>Appetizers</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Spinach Artichoke and Almond Dip</name>
+    <image>spinach_artichoke_and_almond_dip.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093385&Redirect=http:%2f%2fwww.fishernuts.com/recipes/appetizers/Spinach-Artichoke-and-Almond-Dip]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093385&Redirect=http:%2f%2fwww.fishernuts.com/recipes/appetizers/Spinach-Artichoke-and-Almond-Dip]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Appetizer</keyword>
+      <keyword>Appetizers</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Walnut and Blue Cheese Wedge</name>
+    <image>walnut_and_blue_cheese_wedge.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093386&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Walnut-and-Blue-Cheese-Wedge]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093386&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Walnut-and-Blue-Cheese-Wedge]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Appetizer</keyword>
+      <keyword>Appetizers</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+      <keyword>Salad</keyword>
+      <keyword>Salads</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Pecan-Crusted Pork Chops with Apples</name>
+    <image>pecan_crusted_pork_chops_with_apples.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093387&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pecan-Crusted-Pork-Chops-with-Apples]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093387&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pecan-Crusted-Pork-Chops-with-Apples]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Easy</keyword>
+      <keyword>Entree</keyword>
+      <keyword>Entrees</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Fisher Walnuts, Beef Tenderloin, Pepper</name>
+    <image>walnut_crusted_beef_tenderloin.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093388&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Walnut-Crusted-Beef-Tenderloin]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093388&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Walnut-Crusted-Beef-Tenderloin]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Easy</keyword>
+      <keyword>Entree</keyword>
+      <keyword>Entrees</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Almonds, Cheese and Rosemary Omelet</name>
+    <image>almond_cheese_and_rosemary_omelet.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093389&Redirect=http:%2f%2fwww.fishernuts.com/recipes/breakfast-brunch/Almond-Cheese-and-Rosemary-Omelet]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093389&Redirect=http:%2f%2fwww.fishernuts.com/recipes/breakfast-brunch/Almond-Cheese-and-Rosemary-Omelet]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Easy</keyword>
+      <keyword>Entree</keyword>
+      <keyword>Entrees</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Grilled Shrimp with Walnuts and Scallions</name>
+    <image>grilled_shrimp_with_walnuts_and_scallions.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093390&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Grilled-Shrimp-with-Walnuts-and-Scallions]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093390&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Grilled-Shrimp-with-Walnuts-and-Scallions]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Appetizer</keyword>
+      <keyword>Appetizers</keyword>
+      <keyword>Easy</keyword>
+      <keyword>Entree</keyword>
+      <keyword>Entrees</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Twice Baked Sweet Potatoes with Pecans</name>
+    <image>twice_baked_sweet_potatoes_with_pecans.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093391&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Twice-Baked-Sweet-Potatoes-with-Pecans]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093391&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Twice-Baked-Sweet-Potatoes-with-Pecans]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Spinach with Almonds and Red Pepper Flakes</name>
+    <image>spinach_with_almonds_and_red_pepper_flakes.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093392&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Spinach-with-Almonds-and-Red-Pepper-Flakes]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093392&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Spinach-with-Almonds-and-Red-Pepper-Flakes]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Easy</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Spiced Almond, Grape and Mixed Green Salad</name>
+    <image>spiced_almond_grape_and_mixed_green_salad.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093393&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Spiced-Almond-Grape-and-Mixed-Green-Salad]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093393&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Spiced-Almond-Grape-and-Mixed-Green-Salad]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Appetizer</keyword>
+      <keyword>Appetizers</keyword>
+      <keyword>Salad</keyword>
+      <keyword>Salads</keyword>
+      <keyword>Entree</keyword>
+      <keyword>Entrees</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Pumpkin Pecan Pie</name>
+    <image>pumpkin_pecan_pie.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093394&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pumpkin-Pecan-Pie]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093394&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pumpkin-Pecan-Pie]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Dessert</keyword>
+      <keyword>Desserts</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Dark Chocolate Walnut Torte</name>
+    <image>dark_chocolate_walnut_torte.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093395&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Dark-Chocolate-and-Walnut-Torte]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093395&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Dark-Chocolate-and-Walnut-Torte]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Dessert</keyword>
+      <keyword>Desserts</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>No Bake Orange Cheesecake</name>
+    <image>no_bake_orange_cheesecake_with_toasted_almonds.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093396&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/No-Bake-Orange-Cheesecake-with-Toasted-Almonds]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093396&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/No-Bake-Orange-Cheesecake-with-Toasted-Almonds]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Dessert</keyword>
+      <keyword>Desserts</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Chocolate Pecan Whoopie Pies</name>
+    <image>chocolate_pecan_whoopie_pies.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093397&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Chocolate-Pecan-Whoopie-Pies]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093397&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Chocolate-Pecan-Whoopie-Pies]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Dessert</keyword>
+      <keyword>Desserts</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Almond Heart Cookies</name>
+    <image>almond_heart_cookies.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093398&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Almond-Heart-Cookies]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093398&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Almond-Heart-Cookies]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Dessert</keyword>
+      <keyword>Desserts</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Asparagus with Walnuts</name>
+    <image>asparagus_with_walnuts.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093399&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Asparagus-with-Walnuts]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093399&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Asparagus-with-Walnuts]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Easy</keyword>
+      <keyword>Salad</keyword>
+      <keyword>Salads</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Baked Clams with Walnuts</name>
+    <image>baked_clams_with_walnuts.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093400&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Baked-Clams-with-Walnuts]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093400&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Baked-Clams-with-Walnuts]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Appetizer</keyword>
+      <keyword>Appetizers</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Brasied Parsnips with Maple Syrup and Pecans</name>
+    <image>braised_parsnips_with_maple_syrup_and_pecans.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093401&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Braised-Parsnips-with-Maple-Syrup-and-Pecans]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093401&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Braised-Parsnips-with-Maple-Syrup-and-Pecans]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Easy</keyword>
+      <keyword>Easy</keyword>
+      <keyword>Salad</keyword>
+      <keyword>Salads</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Green Bean and Almond Salad</name>
+    <image>green_bean_and_almond_salad.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093402&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Green-Bean-and-Almond-Salad]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093402&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Green-Bean-and-Almond-Salad]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Appetizer</keyword>
+      <keyword>Appetizers</keyword>
+      <keyword>Easy</keyword>
+      <keyword>Salad</keyword>
+      <keyword>Salads</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Pear Crisp with Almonds</name>
+    <image>pear_crisp_with_almonds.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093403&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pear-Crisp-with-Almonds]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093403&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pear-Crisp-with-Almonds]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Dessert</keyword>
+      <keyword>Desserts</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Seared Hanger Steak with Brown Sugar Carrots and Walnuts</name>
+    <image>seared_hanger_steak_with_brown_sugar_carrots_and_walnuts.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093404&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Seared-Hanger-Steak-with-Brown-Sugar-Carrots-and-Walnuts]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093404&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Seared-Hanger-Steak-with-Brown-Sugar-Carrots-and-Walnuts]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Easy</keyword>
+      <keyword>Entree</keyword>
+      <keyword>Entrees</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Strawberry Crostata with Walnuts</name>
+    <image>strawberry_crostata_with_walnuts.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093405&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Strawberry-Crostata-with-Walnuts]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093405&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Strawberry-Crostata-with-Walnuts]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Dessert</keyword>
+      <keyword>Desserts</keyword>
+    </keywords>
+  </recipe>
+
+  <recipe>
+    <name>Stuffed White Mushrooms with Pecans</name>
+    <image>stuffed_white_mushrooms_with_pecans.jpg</image>
+    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093406&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Stuffed-White-Mushrooms-with-Pecans]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093406&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Stuffed-White-Mushrooms-with-Pecans]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Appetizer</keyword>
+      <keyword>Appetizers</keyword>
+      <keyword>Side Dish</keyword>
+      <keyword>Side Dishes</keyword>
     </keywords>
   </recipe>
 
