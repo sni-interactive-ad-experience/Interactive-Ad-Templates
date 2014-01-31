@@ -7,6 +7,9 @@ These modules have been tested on the Food Network redesigned site as of Novembe
 
 <!-- cartridge container -->
 <style>
+
+@charset "UTF-8";
+
 #sponsorCtr1{
 	display:block;
 }
@@ -26,7 +29,7 @@ These modules have been tested on the Food Network redesigned site as of Novembe
 	position:relative;
 	float:left;
 	width:100%;
-	margin:20px auto;
+	margin-top:25px;
 	border-top:4px double #cccccc;
 	border-bottom: 4px double #cccccc;
 	padding:20px 0px;
@@ -34,7 +37,7 @@ These modules have been tested on the Food Network redesigned site as of Novembe
 
 .cart_img{
 	float:left;
-	width:340px;
+	width:320px;
 }
 
 .cart_img img{
@@ -48,7 +51,7 @@ These modules have been tested on the Food Network redesigned site as of Novembe
 	float:left;
 	font-family:"Demi Condensed Medium";
 	font-size:24px;
-	width:170px;
+	width:150px;
 	color:#323232;
 	margin-bottom:5px;
 }
@@ -68,12 +71,13 @@ These modules have been tested on the Food Network redesigned site as of Novembe
 	float:left;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
+	width:150px;
 }
 
 .cart_more{
 	float: left;
 border-left: 1px dotted #6a6a6a;
-padding-left: 25px;
+padding-left: 15px;
 }
 
 .cart_more h6{
@@ -82,12 +86,12 @@ padding-left: 25px;
 	font-size:18px;
 	color:#323232;
 	margin-bottom:10px;
+	width:100%;
 }
 
 .cart_more_list li{
 	margin-bottom:5px;
 }
-
 
 .cart_more_list li a {
 text-decoration:none !important;
@@ -100,49 +104,47 @@ color:#323232;
 </style>
 
 <script type="text/javascript" charset="utf-8">
-$(document).ready(function() {
-  var UID = mdManager.getParameter("UniqueId"); // Use this to lock to page if needed
-  var targetUID = "[enter UniqueID here]"; // Locked to: http://www.foodnetwork.com/thanksgiving-leftovers/package/index.html
-  var myIDElement = document.getElementById('sponsorCtr1');
-  var loaded = false;
-  if (UID != targetUID) {
+ $(document).ready(function(){
+  var UID = mdManager.getParameter ("UniqueID");
+  // Sniffer Stacker URLS
+  if ( UID == 'food|universal-landing|94e25dd7-516e-4be5-8476-12daba543878|1') {
     // Set to escaped markup. I use http://accessify.com/tools-and-wizards/developer-tools/html-javascript-convertor/ to save time.
 // build HTML content
-var syncedContent="";
-syncedContent += "<div class=\"cartridge_module\">";
-syncedContent += "<div class=\"sponsored_header\">Sponsored Recipes<\/div>";
-syncedContent += "<div class=\"cart_img\">";
-syncedContent += "<a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094480&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/ultra-creamy-mashed-potatoes-recipe2\/index.html\">";
-syncedContent += "<img src=\"http:\/\/img.foodnetwork.com\/FOOD\/2013\/09\/19\/RX-SWANSON_Ultra-Creamy-Mashed-Potatoes_s4x3_med.jpg\" width=\"120\" height=\"90\" alt=\"Ultra Creamy Mashed Potatoes\"> <\/a>";
-syncedContent += "<p><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094480&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/ultra-creamy-mashed-potatoes-recipe2\/index.html\">Ultra Creamy Mashed Potatoes<\/a><\/p>";
-syncedContent += "<cite>Courtesy of <a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094479&Redirect=http:%2f%2fwww.campbellskitchen.com\/swanson\/home\" target=\"_blank\">Swanson<sup>&reg;<\/sup><\/a><\/cite>";
-syncedContent += "<\/div>";
-syncedContent += "<div class=\"cart_more\">";
-syncedContent += "<h6>More recipes from Swanson&reg;<\/h6>";
-syncedContent += "<ul class=\"cart_more_list\">";
-syncedContent += "<li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094481&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/herb-roasted-turkey-with-pan-gravy-recipe\/index.html\">Herb Roasted Turkey w\/ Pan Gravy<\/a><\/span><\/li>";
-syncedContent += "<li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094482&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/thai-chicken-vegetable-soup-recipe\/index.html\">Thai Chicken Vegetable Soup<\/a><\/span><\/li>";
-syncedContent += "<li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094483&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/moist-savory-stuffing-recipe2\/index.html\">Moist & Savory Stuffing<\/a><\/span><\/li>";
-syncedContent += "<li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2094484&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/butternut-squash-soup-with-sage-recipe\/index.html\">Butternut Squash Soup with Sage<\/a><\/span><\/li>";
-syncedContent += "<\/ul>";
-syncedContent += "<\/div>";
-syncedContent += "<\/div>";
+var syncedContent1="";
+syncedContent1 += "<div class=\"cartridge_module\">";
+syncedContent1 += "<div class=\"sponsored_header\">Sponsored Recipes<\/div>";
+syncedContent1 += "<div class=\"cart_img\">";
+syncedContent1 += "<a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2099564&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/sweetheart-cinnamon-rolls.html\">";
+syncedContent1 += "<img src=\"http:\/\/img.foodnetwork.com\/FOOD\/2014\/01\/24\/RX-PILLSBURY-SWEET-ROLLS_Sweetheart-Cinnamon-Rolls_s4x3_med.jpg\" width=\"120\" height=\"90\" alt=\"Sweetheart Cinnamon Rolls\"><\/a>";
+syncedContent1 += " <p><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2099564&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/sweetheart-cinnamon-rolls.html\">Sweetheart Cinnamon Rolls<\/a><\/p>";
+syncedContent1 += "<cite><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2099579&Redirect=http:%2f%2fwww.pillsbury.com\/Home\/everyday-eats\/breakfast-brunch\/easiest-ever-cinnamon-rolls\" target=\"_blank\">Pillsbury<sup>&reg;<\/sup> Sweet Rolls<\/a><\/cite>";
+syncedContent1 += "<\/div>";
+syncedContent1 += "<div class=\"cart_more\">";
+syncedContent1 += "<h6>More recipes from Pillsbury<sup>&reg;<\/sup> Sweet Rolls<\/h6>";
+syncedContent1 += "<ul class=\"cart_more_list\">";
+syncedContent1 += "<li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2099565&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/easiest-ever-cinnamon-roll-bites.html\">Easiest Ever Cinnamon Roll Bites<\/a><\/span><\/li>";
+syncedContent1 += " <li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2099566&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/giant-cinnamon-roll.html\">Giant Cinnamon Roll<\/a><\/span><\/li>";
+syncedContent1 += " <li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2099567&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/bacon-cinnamon-rolls.html\">Bacon Cinnamon Rolls<\/a><\/span><\/li>";
+ syncedContent1 += "            <li><span class=\"arrow\"><a href=\"http:\/\/adsremote.scrippsnetworks.com\/event.ng\/Type=click&FlightID=&AdID=&TargetID=&Values=2099568&Redirect=http:%2f%2fwww.foodnetwork.com\/recipes\/cream-cheese-cinnamon-roll-monkey-bread.html\">Cream Cheese-Cinnamon Roll Monkey Bread<\/a><\/span><\/li>";
+syncedContent1 += "<\/ul>";
+syncedContent1 += "<\/div>";
+syncedContent1 += "<\/div>";
 //impression tag
-syncedContent += "<img src=\"http:\/\/adsremote.scrippsnetworks.com\/image.ng\/site=FOOD&adtype=TRACKING&TRACKING=FOOD_13OCT02_DEL_MONTE_THANKSGIVING_LO_OVERALL_1X1&adsize=1x1&PagePos=1\" border=0>";
+syncedContent1 += "<img src=\"http:\/\/adsremote.scrippsnetworks.com\/image.ng\/site=FOOD&adtype=TRACKING&TRACKING=FOOD_14JAN30_PILLSBURYSWEETROLLS_FMT_CART_1X1&adsize=1x1&PagePos=1\" border=0>";
 //end impression tag
 
- // Write to page
-    if (myIDElement && !loaded) {
-      $('#sponsorCtr1').html(syncedContent);
-      $('#sponsorCtr1').show();
-      loaded = true;
-    } else {
-        // Missing sponsorCtr1. Appending to graphic lead module.
-        $('.graphic-lead').after("<div id='sponsorCtr1' style='display:block;'>" + syncedContent + '<div>');
-        loaded = true;
-    }
+// Appending to graphic lead module.
+// values = [sn1,sn2,etc]
+var values = [syncedContent1];
+$('.generic-1-image.section:first').append("<div id='sponsorCtr1' style='display:block;'>" + values[Math.floor(Math.random() * values.length)] + '<div>');
+loaded = true;
+ 
   } // End UID check
+  else{
+  }
 });
 </script>
 
-<!-- end cartride container -->
+<!-- end cartridge container -->
+
+<div id="sponsorCtr1"></div>
