@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <wrap>
   <!-- TODO: Absolute link to the CSS file. -->
-  <sponsorCSS href="http://images.foodnetwork.com/webfood/images/sales/fisher_rsi_feb_2014/styles.css"/>
+  <sponsorCSS href="http://images.foodnetwork.com/webfood/images/sales/vitamix_rsi_feb_2014/styles.css"/>
   <!-- TODO: Absolute link to the folder containing images. -->
-  <imagePath>http://images.foodnetwork.com/webfood/images/sales/fisher_rsi_feb_2014/images/</imagePath>
+  <imagePath>http://images.foodnetwork.com/webfood/images/sales/vitamix_rsi_feb_2014/images/</imagePath>
   <!-- RATINGS IMAGE -->
   <creative_template><![CDATA[
     <div id="asi-module">
      <div class="promo mini-ad pod">
        <!-- Update with RSI sponsor name -->
 	   <div class="title_bar"></div>
-       <div class="hd"><h4>Recipes from Fisher Nuts</h4></div>
+       <div class="hd"><h4>Vitamix<sup>&reg;</sup> Recipes</h4></div>
        <div class="bd clrfix">
          <ul id="recipeListContainer">
            <ads_repeat>
@@ -30,7 +30,7 @@
 		<div class="divider"></div>
         <div class="ft clrfix">
           <!-- TODO: Update this with the filename for the logo image. Add logo clicktag. And update Alt tag with sponsor name-->
-         <p><span>Sponsored by</span><a href="http://adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093408&Redirect=http:%2f%2fwww.fishernuts.com" target="_blank" title="Fisher Nuts"><img src="http://images.foodnetwork.com/webfood/images/sales/fisher_nuts_august_2013/images/fisher_68x40.gif" alt="Fisher Nuts" width="68" height="40" /></a></p>
+          <p><span>Sponsored by</span><a href="http://ad.doubleclick.net/ddm/clk/278850812;105981250;h" target="_blank" title="Vitamix High-Performance Blenders"><img src="http://images.foodnetwork.com/webfood/images/sales/vitamix_rsi_feb_2014/images/vitamix_115x24.gif" alt="Vitamix High-Performance Blenders"  /></a></p>
           </div>
           <div class="tableCell"><img id="viewTracker" src="" style="visibility: hidden;" border="0" height="1" width="1"></div>
         </div>

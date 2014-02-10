@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <recipes>
-  <baseURL><![CDATA[http://]]></baseURL>
-  <!-- viewTracker: the Impression Tag. Include http://  -->
-  <viewTracker><![CDATA[]]></viewTracker>
+	<baseURL><![CDATA[http://]]></baseURL>
+	<!-- viewTracker: the Impression Tag. Include http://  -->
+	<viewTracker><![CDATA[]]></viewTracker>
   <!-- maxRecipeDisplay: # of Recipes to Display. If more recipes in XML random recipes will be selected. -->
   <maxRecipeDisplay>4</maxRecipeDisplay>
   <!-- Links for Sponsored Result. -->
@@ -12,7 +12,7 @@
       <!-- linkId: Link to recipe. Exclude http:// -->
       <linkId><![CDATA[]]></linkId>
       <!-- linkId2: URL for "Sponsored By" link. Exclude http:// -->
-      <linkId2><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093408&Redirect=http:%2f%2fwww.fishernuts.com]]></linkId2>
+      <linkId2><![CDATA[]]></linkId2>
       <videoAvailable></videoAvailable>
       <difficulty></difficulty>
       <prepTime></prepTime>
@@ -25,10 +25,11 @@
 
   <!--  Right Rail Module Recipes -->
   <!-- Create one of these nodes for each recipe that is listed in the marquee sheet of the Exile document. -->
+  
   <recipe>
-    <name>Ricotta Cheese and Basil Flatbread</name>
-    <image>ricotta_cheese_and_basil_flatbread.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093384&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Ricotta-Cheese-and-Basil-Flatbread]]></linkId>
+    <name>All Green Smoothie</name>
+    <image>RX-VITAMIX_All-Green-Smoothie_s3x4_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278454919;105150172;g]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -36,24 +37,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093384&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Ricotta-Cheese-and-Basil-Flatbread]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278454919;105150172;g]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Appetizer</keyword>
-      <keyword>Appetizers</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Spinach Artichoke and Almond Dip</name>
-    <image>spinach_artichoke_and_almond_dip.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093385&Redirect=http:%2f%2fwww.fishernuts.com/recipes/appetizers/Spinach-Artichoke-and-Almond-Dip]]></linkId>
+  
+    <recipe>
+    <name>Going Green Smoothie</name>
+    <image>RX-VITAMIX_going-green-smoothie_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278455050;105150173;u]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -61,24 +62,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093385&Redirect=http:%2f%2fwww.fishernuts.com/recipes/appetizers/Spinach-Artichoke-and-Almond-Dip]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278455050;105150173;u]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Appetizer</keyword>
-      <keyword>Appetizers</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Walnut and Blue Cheese Wedge</name>
-    <image>walnut_and_blue_cheese_wedge.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093386&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Walnut-and-Blue-Cheese-Wedge]]></linkId>
+  
+    <recipe>
+    <name>Kale and Pear Green Smoothie</name>
+    <image>RX-VITAMIX_kale-pear-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458177;105150174;i]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -86,26 +87,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093386&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Walnut-and-Blue-Cheese-Wedge]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458177;105150174;i]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Appetizer</keyword>
-      <keyword>Appetizers</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
-      <keyword>Salad</keyword>
-      <keyword>Salads</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Pecan-Crusted Pork Chops with Apples</name>
-    <image>pecan_crusted_pork_chops_with_apples.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093387&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pecan-Crusted-Pork-Chops-with-Apples]]></linkId>
+  
+    <recipe>
+    <name>Emerald Smoothie</name>
+    <image>RX-VITAMIX_emerald-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458181;105150175;e]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -113,23 +112,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093387&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pecan-Crusted-Pork-Chops-with-Apples]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458181;105150175;e]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Easy</keyword>
-      <keyword>Entree</keyword>
-      <keyword>Entrees</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Fisher Walnuts, Beef Tenderloin, Pepper</name>
-    <image>walnut_crusted_beef_tenderloin.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093388&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Walnut-Crusted-Beef-Tenderloin]]></linkId>
+  
+    <recipe>
+    <name>Everything Smoothie</name>
+    <image>RX-VITAMIX_everything-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458182;105150176;g?http://www.foodnetwork.com/recipes/everything-smoothie-recipe/index.html?COUPON=07-0094-01&bid=350168]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -137,23 +137,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093388&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Walnut-Crusted-Beef-Tenderloin]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458182;105150176;g?http://www.foodnetwork.com/recipes/everything-smoothie-recipe/index.html?COUPON=07-0094-01&bid=350168]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Easy</keyword>
-      <keyword>Entree</keyword>
-      <keyword>Entrees</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Almonds, Cheese and Rosemary Omelet</name>
-    <image>almond_cheese_and_rosemary_omelet.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093389&Redirect=http:%2f%2fwww.fishernuts.com/recipes/breakfast-brunch/Almond-Cheese-and-Rosemary-Omelet]]></linkId>
+  
+    <recipe>
+    <name>Glowing Green Smoothie</name>
+    <image>RX-VITAMIX_glowing-green-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458189;105150177;o]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -161,23 +162,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093389&Redirect=http:%2f%2fwww.fishernuts.com/recipes/breakfast-brunch/Almond-Cheese-and-Rosemary-Omelet]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458189;105150177;o]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Easy</keyword>
-      <keyword>Entree</keyword>
-      <keyword>Entrees</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Grilled Shrimp with Walnuts and Scallions</name>
-    <image>grilled_shrimp_with_walnuts_and_scallions.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093390&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Grilled-Shrimp-with-Walnuts-and-Scallions]]></linkId>
+  
+    <recipe>
+    <name>Key Lime Kiwi Smoothie</name>
+    <image>RX-VITAMIX_keylime-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458191;105150178;i]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -185,27 +187,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093390&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Grilled-Shrimp-with-Walnuts-and-Scallions]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458191;105150178;i]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Appetizer</keyword>
-      <keyword>Appetizers</keyword>
-      <keyword>Easy</keyword>
-      <keyword>Entree</keyword>
-      <keyword>Entrees</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Twice Baked Sweet Potatoes with Pecans</name>
-    <image>twice_baked_sweet_potatoes_with_pecans.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093391&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Twice-Baked-Sweet-Potatoes-with-Pecans]]></linkId>
+  
+    <recipe>
+    <name>Spinach Cocktail</name>
+    <image>RX-VITAMIX_spinach-cocktail-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458192;105150179;k]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -213,22 +212,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093391&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Twice-Baked-Sweet-Potatoes-with-Pecans]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458192;105150179;k]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Spinach with Almonds and Red Pepper Flakes</name>
-    <image>spinach_with_almonds_and_red_pepper_flakes.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093392&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Spinach-with-Almonds-and-Red-Pepper-Flakes]]></linkId>
+  
+    <recipe>
+    <name>Fruit Smoothie</name>
+    <image>RX-VITAMIX_fruit-salad-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458075;105150180;c]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -236,23 +237,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093392&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Spinach-with-Almonds-and-Red-Pepper-Flakes]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458075;105150180;c]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Easy</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Spiced Almond, Grape and Mixed Green Salad</name>
-    <image>spiced_almond_grape_and_mixed_green_salad.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093393&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Spiced-Almond-Grape-and-Mixed-Green-Salad]]></linkId>
+  
+    <recipe>
+    <name>Berry Delicious Smoothie</name>
+    <image>RX-VITAMIX_berry-delicious-smoothie_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458197;105150181;i]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -260,28 +262,24 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093393&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Spiced-Almond-Grape-and-Mixed-Green-Salad]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458197;105150181;i]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Appetizer</keyword>
-      <keyword>Appetizers</keyword>
-      <keyword>Salad</keyword>
-      <keyword>Salads</keyword>
-      <keyword>Entree</keyword>
-      <keyword>Entrees</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Pumpkin Pecan Pie</name>
-    <image>pumpkin_pecan_pie.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093394&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pumpkin-Pecan-Pie]]></linkId>
+  
+    <recipe>
+    <name>Citrus Smoothie</name>
+    <image>RX-VITAMIX_citrus-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458080;105150182;a]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -289,22 +287,666 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093394&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pumpkin-Pecan-Pie]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458080;105150182;a]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Mango Smoothie</name>
+    <image>RX-VITAMIX_Mango-Smoothie_s3x4_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458100;105150183;u]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458100;105150183;u]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Triple Berry Smoothie</name>
+    <image>RX-VITAMIX_triple-berry-smoothie_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458131;105150184;z]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458131;105150184;z]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Apple Pie Smoothie</name>
+    <image>RX-VITAMIX_apple-pie-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458133;105150185;c]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458133;105150185;c]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Banana Blueberry Orange Smoothie</name>
+    <image>RX-VITAMIX_Banana-Blue-Orange-Smootie_s3x4_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278458266;105150186;k]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278458266;105150186;k]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Basic Fruit Smoothie</name>
+    <image>RX-VITAMIX_basic-fruit-smoothie_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462026;105150187;a]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462026;105150187;a]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Beet, Strawberry, Cranberry Smoothie</name>
+    <image>RX-VITAMIX_beet-strawberry-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462031;105150188;x]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462031;105150188;x]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Gold Medal Smoothie</name>
+    <image>RX-VITAMIX_gold-medal-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278461379;105150189;m]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278461379;105150189;m]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Just Peachy Smoothie</name>
+    <image>RX-VITAMIX_just-peachy-smoothie_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462033;105150190;s]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462033;105150190;s]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Passionately Pink Smoothie</name>
+    <image>RX-VITAMIX_passionately-pink-smoothie-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462034;105150191;u]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462034;105150191;u]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Smoothie</keyword>
+	  <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Apple Juice</name>
+    <image>RX-VITAMIX_Apple-Juice_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278461386;105150192;e]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278461386;105150192;e]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Juice</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Citrus Carrot Juice</name>
+    <image>RX-VITAMIX_citrus-carrot-juice_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462039;105150193;b]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462039;105150193;b]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Juice</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Orange Juice Plus</name>
+    <image>RX-VITAMIX_orange-juice-plus-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278461391;105150194;c]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278461391;105150194;c]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Juice</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Carrot, Orange, and Apple Juice</name>
+    <image>RX-VITAMIX_carrot-orange-apple-juice_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278461398;105150195;k]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278461398;105150195;k]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Juice</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Almond or Cashew Milk</name>
+    <image>RX-VITAMIX_almond-or-cashew-milk-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462053;105150196;a]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462053;105150196;a]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Soy Milk</name>
+    <image>RX-VITAMIX_soy-milk-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462055;105150197;d]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462055;105150197;d]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Coconut Milk</name>
+    <image>RX-VITAMIX_coconut-milk-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278461421;105150198;a]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278461421;105150198;a]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Tortilla Soup</name>
+    <image>RX-VITAMIX_tortilla-soup-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278461425;105150199;f?http://www.foodnetwork.com/recipes/tortilla-soup-recipe2/index.html?COUPON=07-0094-01&bid=779298]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278461425;105150199;f?http://www.foodnetwork.com/recipes/tortilla-soup-recipe2/index.html?COUPON=07-0094-01&bid=779298]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Black Bean Soup</name>
+    <image>RX-VITAMIX_black-bean-soup_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462098;105150201;w]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462098;105150201;w]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+    <recipe>
+    <name>Broccoli Cheese Soup</name>
+    <image>RX-VITAMIX_brocolli-cheese-soup-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462101;105150202;i]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462101;105150202;i]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>
+    </keywords>	
+  </recipe>
+  
+   <recipe>
+    <name>Cream of Asparagus Soup</name>
+    <image>RX-VITAMIX_cream-of-asparagus-soup-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462118;105150203;r]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462118;105150203;r]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Bacon Cheddar Potato Soup</name>
+    <image>RX-VITAMIX_bacon-cheddar-soup-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278462120;105150204;l]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278462120;105150204;l]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>	
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Cabbage Soup</name>
+    <image>RX-VITAMIX_Cabbage-Soup_s3x4_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278464781;105150205;b]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278464781;105150205;b]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Chicken Potato Spinach Soup</name>
+    <image>RX-VITAMIX_chicken-potato-spinach-soup-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278464783;105150206;e]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278464783;105150206;e]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Gazpacho</name>
+    <image>RX-VITAMIX_gazpacho_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278464787;105150207;j]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278464787;105150207;j]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Celery Potato Soup</name>
+    <image>RX-VITAMIX_celery-potato-soup-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278479692;105150208;l]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278479692;105150208;l]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Red Pepper Crab Soup</name>
+    <image>RX-VITAMIX_red-pepper-crab-soup-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278479689;105150210;k]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278479689;105150210;k]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Soup</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Chocolate Ice Cream</name>
+    <image>RX-VITAMIX_chocolate-ice-cream_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278479695;105150211;i]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278479695;105150211;i]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
       <keyword>Dessert</keyword>
-      <keyword>Desserts</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Dark Chocolate Walnut Torte</name>
-    <image>dark_chocolate_walnut_torte.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093395&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Dark-Chocolate-and-Walnut-Torte]]></linkId>
+  
+   <recipe>
+    <name>Pumpkin Muffins</name>
+    <image>RX-VITAMIX_pumpkin-muffins-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278478916;105150212;e]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -312,22 +954,45 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093395&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Dark-Chocolate-and-Walnut-Torte]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278478916;105150212;e]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Dessert</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Orange Sorbet</name>
+    <image>RX-VITAMIX_Orange-Sorbet_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278484395;105150213;d]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278484395;105150213;d]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
       <keyword>Dessert</keyword>
-      <keyword>Desserts</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>No Bake Orange Cheesecake</name>
-    <image>no_bake_orange_cheesecake_with_toasted_almonds.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093396&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/No-Bake-Orange-Cheesecake-with-Toasted-Almonds]]></linkId>
+  
+   <recipe>
+    <name>Almond Cookies</name>
+    <image>RX-VITAMIX_almond-cookies-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278489235;105150214;c]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -335,22 +1000,21 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093396&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/No-Bake-Orange-Cheesecake-with-Toasted-Almonds]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278489235;105150214;c]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
       <keyword>Dessert</keyword>
-      <keyword>Desserts</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Chocolate Pecan Whoopie Pies</name>
-    <image>chocolate_pecan_whoopie_pies.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093397&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Chocolate-Pecan-Whoopie-Pies]]></linkId>
+  
+   <recipe>
+    <name>Chocolate Espresso Fondue</name>
+    <image>RX-VITAMIX_chocolate-espresso-fondue-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278492357;105150215;c]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -358,22 +1022,21 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093397&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Chocolate-Pecan-Whoopie-Pies]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278492357;105150215;c]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
       <keyword>Dessert</keyword>
-      <keyword>Desserts</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Almond Heart Cookies</name>
-    <image>almond_heart_cookies.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093398&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Almond-Heart-Cookies]]></linkId>
+  
+   <recipe>
+    <name>Almond Butter</name>
+    <image>RX-VITAMIX_almond-butter_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278492257;105150217;d]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -381,22 +1044,22 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093398&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Almond-Heart-Cookies]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278492257;105150217;d]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Dessert</keyword>
-      <keyword>Desserts</keyword>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Asparagus with Walnuts</name>
-    <image>asparagus_with_walnuts.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093399&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Asparagus-with-Walnuts]]></linkId>
+  
+   <recipe>
+    <name>Apple-Raisin Cracked Wheat Cereal</name>
+    <image>RX-VITAMIX_apple-raisin-wheat-cereal-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278492276;105150218;f]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -404,25 +1067,114 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093399&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Asparagus-with-Walnuts]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278492276;105150218;f]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Buttermilk Pancakes</name>
+    <image>RX-VITAMIX_buttermilk-pancakes_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278492302;105150219;w]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278492302;105150219;w]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Peanut Cashew Butter</name>
+    <image>RX-VITAMIX_Peanut-Cashew-Butter_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278498012;105150220;s]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278498012;105150220;s]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Vitamix Granola Bars</name>
+    <image>RX-VITAMIX_Cranberry-Granola-Bar_s3x4_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278498017;105150221;y]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278498017;105150221;y]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
+    <var2></var2>
+    <var2Link></var2Link>
+    <var2LinkNewWindow>0</var2LinkNewWindow>
+    <keywords>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
+    </keywords>
+  </recipe>
+  
+   <recipe>
+    <name>Poppy Seed Dressing</name>
+    <image>RX-VITAMIX_Poppy-seed-dressing_s3x4_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278497742;105150223;e]]></linkId>
+    <difficulty></difficulty>
+    <prepTime></prepTime>
+    <healthyLiving></healthyLiving>
+    <rating></rating>
+    <trackingTag></trackingTag>
+    <totalTime></totalTime>
+    <var1>Get Recipe</var1>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278497742;105150223;e]]></var1Link>
+    <!-- Set to 1 to open in new window -->
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
       <keyword>Easy</keyword>
-      <keyword>Salad</keyword>
-      <keyword>Salads</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Baked Clams with Walnuts</name>
-    <image>baked_clams_with_walnuts.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093400&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Baked-Clams-with-Walnuts]]></linkId>
+  
+   <recipe>
+    <name>Whole Wheat Bread</name>
+    <image>RX-VITAMIX_Whole-wheat_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278497759;105150224;n]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -430,24 +1182,22 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093400&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Baked-Clams-with-Walnuts]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278497759;105150224;n]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Appetizer</keyword>
-      <keyword>Appetizers</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
+      <keyword>Breakfast</keyword>
+	  <keyword>Healthy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Brasied Parsnips with Maple Syrup and Pecans</name>
-    <image>braised_parsnips_with_maple_syrup_and_pecans.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093401&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Braised-Parsnips-with-Maple-Syrup-and-Pecans]]></linkId>
+  
+   <recipe>
+    <name>California Salsa</name>
+    <image>RX-VITAMIX_california-salsa_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278497760;105150225;g]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -455,26 +1205,21 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093401&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Braised-Parsnips-with-Maple-Syrup-and-Pecans]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278497760;105150225;g]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Easy</keyword>
-      <keyword>Easy</keyword>
-      <keyword>Salad</keyword>
-      <keyword>Salads</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
+      <keyword>Healthy</keyword>	
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Green Bean and Almond Salad</name>
-    <image>green_bean_and_almond_salad.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093402&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Green-Bean-and-Almond-Salad]]></linkId>
+  
+   <recipe>
+    <name>Guacamole</name>
+    <image>RX-VITAMIX_guacamole_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278497764;105150226;l]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -482,27 +1227,22 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093402&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Green-Bean-and-Almond-Salad]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278497764;105150226;l]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Appetizer</keyword>
-      <keyword>Appetizers</keyword>
-      <keyword>Easy</keyword>
-      <keyword>Salad</keyword>
-      <keyword>Salads</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
+      <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Pear Crisp with Almonds</name>
-    <image>pear_crisp_with_almonds.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093403&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pear-Crisp-with-Almonds]]></linkId>
+  
+   <recipe>
+    <name>Hummus</name>
+    <image>RX-VITAMIX_hummus-main_s4x3_sm.jpg</image>
+    <linkId><![CDATA[ad.doubleclick.net/ddm/clk/278497766;105150227;o]]></linkId>
     <difficulty></difficulty>
     <prepTime></prepTime>
     <healthyLiving></healthyLiving>
@@ -510,88 +1250,17 @@
     <trackingTag></trackingTag>
     <totalTime></totalTime>
     <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093403&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Pear-Crisp-with-Almonds]]></var1Link>
+    <var1Link><![CDATA[ad.doubleclick.net/ddm/clk/278497766;105150227;o]]></var1Link>
     <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
+    <var1LinkNewWindow>0</var1LinkNewWindow>
     <var2></var2>
     <var2Link></var2Link>
     <var2LinkNewWindow>0</var2LinkNewWindow>
     <keywords>
-      <keyword>Dessert</keyword>
-      <keyword>Desserts</keyword>
+      <keyword>Healthy</keyword>
+	  <keyword>Easy</keyword>
     </keywords>
   </recipe>
-
-  <recipe>
-    <name>Seared Hanger Steak with Brown Sugar Carrots and Walnuts</name>
-    <image>seared_hanger_steak_with_brown_sugar_carrots_and_walnuts.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093404&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Seared-Hanger-Steak-with-Brown-Sugar-Carrots-and-Walnuts]]></linkId>
-    <difficulty></difficulty>
-    <prepTime></prepTime>
-    <healthyLiving></healthyLiving>
-    <rating></rating>
-    <trackingTag></trackingTag>
-    <totalTime></totalTime>
-    <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093404&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Seared-Hanger-Steak-with-Brown-Sugar-Carrots-and-Walnuts]]></var1Link>
-    <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
-    <var2></var2>
-    <var2Link></var2Link>
-    <var2LinkNewWindow>0</var2LinkNewWindow>
-    <keywords>
-      <keyword>Easy</keyword>
-      <keyword>Entree</keyword>
-      <keyword>Entrees</keyword>
-    </keywords>
-  </recipe>
-
-  <recipe>
-    <name>Strawberry Crostata with Walnuts</name>
-    <image>strawberry_crostata_with_walnuts.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093405&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Strawberry-Crostata-with-Walnuts]]></linkId>
-    <difficulty></difficulty>
-    <prepTime></prepTime>
-    <healthyLiving></healthyLiving>
-    <rating></rating>
-    <trackingTag></trackingTag>
-    <totalTime></totalTime>
-    <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093405&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Strawberry-Crostata-with-Walnuts]]></var1Link>
-    <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
-    <var2></var2>
-    <var2Link></var2Link>
-    <var2LinkNewWindow>0</var2LinkNewWindow>
-    <keywords>
-      <keyword>Dessert</keyword>
-      <keyword>Desserts</keyword>
-    </keywords>
-  </recipe>
-
-  <recipe>
-    <name>Stuffed White Mushrooms with Pecans</name>
-    <image>stuffed_white_mushrooms_with_pecans.jpg</image>
-    <linkId><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093406&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Stuffed-White-Mushrooms-with-Pecans]]></linkId>
-    <difficulty></difficulty>
-    <prepTime></prepTime>
-    <healthyLiving></healthyLiving>
-    <rating></rating>
-    <trackingTag></trackingTag>
-    <totalTime></totalTime>
-    <var1>Get Recipe</var1>
-    <var1Link><![CDATA[adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093406&Redirect=http:%2f%2fwww.fishernuts.com/recipes/alex/Stuffed-White-Mushrooms-with-Pecans]]></var1Link>
-    <!-- Set to 1 to open in new window -->
-    <var1LinkNewWindow>1</var1LinkNewWindow>
-    <var2></var2>
-    <var2Link></var2Link>
-    <var2LinkNewWindow>0</var2LinkNewWindow>
-    <keywords>
-      <keyword>Appetizer</keyword>
-      <keyword>Appetizers</keyword>
-      <keyword>Side Dish</keyword>
-      <keyword>Side Dishes</keyword>
-    </keywords>
-  </recipe>
-
+  
+  
 </recipes>

@@ -4,9 +4,9 @@ var $siAssetsPath = 'http://images.foodnetwork.com/webfood/images/sales/search_i
 var $asiAssetsPath = 'http://images.foodnetwork.com/webfood/images/sales/search_integration/asi_assets/js/';
 
 // TODO: Change to Sponsor Name: Must match keywords2013.js value and the XML directory names on Scrippsonline and FoodNetwork.com
-var $siSponsor = 'fisher_rsi_feb_2014';
+var $siSponsor = 'vitamix_rsi_feb_2014';
 // TODO: Setup array of all keywords
-var keywords = ['appetizer', 'appetizers', 'easy', 'salad', 'salads', 'entree', 'dessert', 'desserts', 'side dish', 'side dishes'];
+var keywords = ['smoothie','soup','breakfast','healthy','juice','dessert','easy'];
 
 // get the domain
 var $siDomainName = 'http://' + window.location.hostname;
@@ -35,7 +35,7 @@ if(isFCOM) $siKeyword = $siKeyword.replace("-", " ");
 // Values that are same across all recipes can be set here.
 var CenterRecipe = function() {
   this.title = "";
-  this.sponsor = "Fisher Nuts";
+  this.sponsor = "Vitamix High-Performance Blenders";
   this.clicktag = "";
   this.image = "";
   this.level = "";
@@ -43,7 +43,7 @@ var CenterRecipe = function() {
   this.cooktime = "";
   this.ingredients = "";
   this.description = "";
-  this.courtesyLink = "http://adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093407&Redirect=http:%2f%2fwww.fishernuts.com/alex";
+  this.courtesyLink = "http://ad.doubleclick.net/ddm/clk/278850790;105977920;v";
   this.impression1x1 = "";
   this.internalTracking = trueCount;
   this.researchTag = "";
@@ -60,77 +60,91 @@ var matchedRecipeSet = [];
  * ==========================================
 */
 
-if( $.inArray( 'appetizer', keytermSet ) > -1 || $.inArray( 'appetizers', keytermSet ) > -1 ){
+if( $.inArray('smoothie', keytermSet) > -1 ){
   var centerRecipe = new CenterRecipe();
-  centerRecipe.title          = "Ricotta Cheese and Basil Flatbread";
-  centerRecipe.clicktag       = "http://adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093409&Redirect=http:%2f%2fwww.foodnetwork.com/recipes/ricotta-cheese-and-basil-flatbread-recipe/index.html";
-  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/08/14/RX-FISHERNUTS_Ricotta-Cheese-and-Basil-Flatbread_s4x3_med.jpg";
-  centerRecipe.level          = "Intermediate";
-  centerRecipe.cooktime       = "15 minutes";
-  centerRecipe.ingredients    = "Fisher Pecans, Cheese, Dough, Basil";
-  centerRecipe.impression1x1  = "http://adsremote.scrippsnetworks.com/image.ng/site=FOOD&adtype=TRACKING&TRACKING=FOOD_13AUG27_FISHERNUTS_FN_RSI_FLATBREAD_1X1&adsize=1x1&PagePos=1";
-  matchedRecipeSet.push(centerRecipe);
-}
-
-if( $.inArray( 'easy', keytermSet ) > -1 ){
-  var centerRecipe = new CenterRecipe();
-  centerRecipe.title          = "Almond and Rosemary Omelet";
-  centerRecipe.clicktag       = "http://adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093410&Redirect=http:%2f%2fwww.foodnetwork.com/recipes/almond-cheese-and-rosemary-omelet-recipe/index.html";
-  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/08/14/RX-FISHERNUTS_Almond-Cheese-and-Rosemary-Omelet_s4x3_med.jpg";
+  centerRecipe.title          = "Going Green Smoothie";
+  centerRecipe.clicktag       = "http://ad.doubleclick.net/ddm/clk/278455050;105150173;u";
+  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/11/08/RX-VITAMIX_going-green-smoothie_s4x3_med.jpg";
   centerRecipe.level          = "Easy";
-  centerRecipe.cooktime       = "10 minutes";
-  centerRecipe.ingredients    = "Fisher Almonds, Eggs, Rosemary";
-  centerRecipe.impression1x1  = "http://adsremote.scrippsnetworks.com/image.ng/site=FOOD&adtype=TRACKING&TRACKING=FOOD_13AUG27_FISHERNUTS_FN_RSI_OMELET_1X1&adsize=1x1&PagePos=1";
+  centerRecipe.cooktime       = "11 Minutes";
+  centerRecipe.ingredients    = "Green grapes, pineapple, spinach, banana";
+  centerRecipe.impression1x1  = "http://ad.doubleclick.net/ad/N4674.SD152259N4674SN0/B7922306.14;sz=1x1;ord=$random$?";
   matchedRecipeSet.push(centerRecipe);
 }
 
-if( $.inArray( 'salad', keytermSet ) > -1 || $.inArray( 'salads', keytermSet ) > -1 ){
+if( $.inArray('soup', keytermSet) > -1 ){
   var centerRecipe = new CenterRecipe();
-  centerRecipe.title          = "Almond and Grape Mixed Green Salad";
-  centerRecipe.clicktag       = "http://adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093411&Redirect=http:%2f%2fwww.foodnetwork.com/recipes/spiced-almond-grape-and-mixed-green-salad-recipe/index.html";
-  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/08/14/RX-FISHERNUTS_SpicedAlmondGrapeandMixedGreenSalad_s4x3_med.jpg";
+  centerRecipe.title          = "Cream of Asparagus Soup";
+  centerRecipe.clicktag       = "http://ad.doubleclick.net/ddm/clk/278462118;105150203;r";
+  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/12/04/RX-VITAMIX_cream-of-asparagus-soup-main_s4x3_med.jpg";
   centerRecipe.level          = "Intermediate";
-  centerRecipe.cooktime       = "20 minutes";
-  centerRecipe.ingredients    = "Fisher Almonds, Grapes, Mixed Greens";
-  centerRecipe.impression1x1  = "http://adsremote.scrippsnetworks.com/image.ng/site=FOOD&adtype=TRACKING&TRACKING=FOOD_13AUG27_FISHERNUTS_FN_RSI_GRAPEGREENSALAD_1X1&adsize=1x1&PagePos=1";
+  centerRecipe.cooktime       = "30 Minutes";
+  centerRecipe.ingredients    = "Asparagus, chicken broth, half and half";
+  centerRecipe.impression1x1  = "http://ad.doubleclick.net/ad/N4674.SD152259N4674SN0/B7922306.43;sz=1x1;ord=$random$?";
   matchedRecipeSet.push(centerRecipe);
 }
 
-if( $.inArray( 'entree', keytermSet ) > -1 ){
+if( $.inArray('breakfast', keytermSet) > -1 ){
   var centerRecipe = new CenterRecipe();
-  centerRecipe.title          = "Walnut-Crusted Beef Tenderloin";
-  centerRecipe.clicktag       = "http://adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093412&Redirect=http:%2f%2fwww.foodnetwork.com/recipes/walnut-crusted-beef-tenderloin-recipe/index.html";
-  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/08/14/RX-FISHERNUTS_Walnut-Crusted-Beef-Tenderloin_s4x3_med.jpg";
+  centerRecipe.title          = "Almond Butter";
+  centerRecipe.clicktag       = "http://ad.doubleclick.net/ddm/clk/278492257;105150217;d";
+  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/11/08/RX-VITAMIX_almond-butter_s4x3_med.jpg";
+  centerRecipe.level          = "Intermediate";
+  centerRecipe.cooktime       = "10 Minutes";
+  centerRecipe.ingredients    = "unsalted roasted almonds, canola oil";
+  centerRecipe.impression1x1  = "http://ad.doubleclick.net/ad/N4674.SD152259N4674SN0/B7922306.55;sz=1x1;ord=$random$?";
+  matchedRecipeSet.push(centerRecipe);
+}
+
+if( $.inArray('healthy', keytermSet) > -1 ){
+  var centerRecipe = new CenterRecipe();
+  centerRecipe.title          = "Almond or Cashew Milk";
+  centerRecipe.clicktag       = "http://ad.doubleclick.net/ddm/clk/278462053;105150196;a";
+  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/12/04/RX-VITAMIX_almond-or-cashew-milk-main_s4x3_med.jpg";
+  centerRecipe.level          = "Intermediate";
+  centerRecipe.cooktime       = "7 Minutes";
+  centerRecipe.ingredients    = "raw almonds or cashews, sugar/sweetener";
+  centerRecipe.impression1x1  = "http://ad.doubleclick.net/ad/N4674.SD152259N4674SN0/B7922306.37;sz=1x1;ord=$random$?";
+  matchedRecipeSet.push(centerRecipe);
+}
+
+if( $.inArray('juice', keytermSet) > -1 ){
+  var centerRecipe = new CenterRecipe();
+  centerRecipe.title          = "Carrot, Orange, and Apple Juice";
+  centerRecipe.clicktag       = "http://ad.doubleclick.net/ddm/clk/278461398;105150195;k";
+  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/12/04/RX-VITAMIX_carrot-orange-apple-juice_s4x3_med.jpg";
   centerRecipe.level          = "Easy";
-  centerRecipe.cooktime       = "50 minutes";
-  centerRecipe.ingredients    = "Fisher Walnuts, Beef Tenderloin, Pepper";
-  centerRecipe.impression1x1  = "http://adsremote.scrippsnetworks.com/image.ng/site=FOOD&adtype=TRACKING&TRACKING=FOOD_13AUG27_FISHERNUTS_FN_RSI_CRUSTEDBEEF_1X1&adsize=1x1&PagePos=1";
+  centerRecipe.cooktime       = "11 Minutes";
+  centerRecipe.ingredients    = "Orange, apple, pineapple, carrot";
+  centerRecipe.impression1x1  = "http://ad.doubleclick.net/ad/N4674.SD152259N4674SN0/B7922306.36;sz=1x1;ord=$random$?";
   matchedRecipeSet.push(centerRecipe);
 }
 
-if( $.inArray( 'dessert', keytermSet ) > -1 || $.inArray( 'desserts', keytermSet ) > -1 ){
+if( $.inArray('dessert', keytermSet) > -1 ){
   var centerRecipe = new CenterRecipe();
-  centerRecipe.title          = "Dark Chocolate Walnut Torte";
-  centerRecipe.clicktag       = "http://adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093415&Redirect=http:%2f%2fwww.foodnetwork.com/recipes/dark-chocolate-and-walnut-torte-recipe/index.html";
-  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/08/14/RX-FISHERNUTS_Dark-Chocolate-Walnut-Torte_s4x3_med.jpg";
-  centerRecipe.level          = "Intermediate";
-  centerRecipe.cooktime       = "45 minutes";
-  centerRecipe.ingredients    = "Fisher Walnuts, Chocolate, Flour";
-  centerRecipe.impression1x1  = "http://adsremote.scrippsnetworks.com/image.ng/site=FOOD&adtype=TRACKING&TRACKING=FOOD_13AUG27_FISHERNUTS_FN_RSI_WALNUTTORTE_1X1&adsize=1x1&PagePos=1";
+  centerRecipe.title          = "Orange Sorbet";
+  centerRecipe.clicktag       = "http://ad.doubleclick.net/ddm/clk/278484395;105150213;d";
+  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/01/31/RX-VITAMIX_Orange-Sorbet_s4x3_med.jpg";
+  centerRecipe.level          = "Easy";
+  centerRecipe.cooktime       = "6 Minutes";
+  centerRecipe.ingredients    = "Oranges, granulated sugar, orange zest";
+  centerRecipe.impression1x1  = "http://ad.doubleclick.net/ad/N4674.SD152259N4674SN0/B7922306.52;sz=1x1;ord=$random$?";
   matchedRecipeSet.push(centerRecipe);
 }
 
-if( ($.inArray('side', keytermSet) > -1 && $.inArray( 'dish', keytermSet ) > -1) || ($.inArray( 'side', keytermSet ) > -1 && $.inArray( 'dishes', keytermSet) > -1) ){
+if( $.inArray('easy', keytermSet) > -1 ){
   var centerRecipe = new CenterRecipe();
-  centerRecipe.title          = "Spinach with Almond and Red Pepper";
-  centerRecipe.clicktag       = "http://adsremote.scrippsnetworks.com/event.ng/Type=click&FlightID=&AdID=&TargetID=&Values=2093414&Redirect=http:%2f%2fwww.foodnetwork.com/recipes/spinach-with-almonds-and-red-pepper-flake-recipe/index.html";
-  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/08/14/RX-FISHERNUTS_Spinach-with-Almonds-and-Red-Pepper-Flakes_s4x3_med.jpg";
-  centerRecipe.level          = "Intermediate";
-  centerRecipe.cooktime       = "9 minutes";
-  centerRecipe.ingredients    = "Fisher Almonds, Spinach, Red Pepper";
-  centerRecipe.impression1x1  = "http://adsremote.scrippsnetworks.com/image.ng/site=FOOD&adtype=TRACKING&TRACKING=FOOD_13AUG27_FISHERNUTS_FN_RSI_SPINACHALMONDREDPEPPER_1X1&adsize=1x1&PagePos=1";
+  centerRecipe.title          = "Banana Blueberry Orange Smoothie";
+  centerRecipe.clicktag       = "http://ad.doubleclick.net/ddm/clk/278458266;105150186;k";
+  centerRecipe.image          = "http://img.foodnetwork.com/FOOD/2013/01/31/RX-VITAMIX_Banana-Blue-Orange-Smootie_s3x4_med.jpg";
+  centerRecipe.level          = "Easy";
+  centerRecipe.cooktime       = "6 Minutes";
+  centerRecipe.ingredients    = "orange, banana, frozen blueberries";
+  centerRecipe.impression1x1  = "http://ad.doubleclick.net/ad/N4674.SD152259N4674SN0/B7922306.27;sz=1x1;ord=$random$?";
   matchedRecipeSet.push(centerRecipe);
 }
+
+
 
 
 
