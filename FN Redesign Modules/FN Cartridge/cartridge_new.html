@@ -1,99 +1,4 @@
 <!-- cartridge container -->
-<style>
-@charset "UTF-8";<br />
-
-#sponsorCtr1{
-	display:block;
-}
-
-.sponsored_header{
-	position:absolute;
-	top:-8px;
-	left:245px;
-	background-color:#FFFFFF;
-	padding: 0px 15px;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:14px;
-	font-style: italic;
-}
-
-.cartridge_module{
-	position:relative;
-	float:left;
-	width:100%;
-	margin-top:25px;
-	border-top:4px double #cccccc;
-	border-bottom: 4px double #cccccc;
-	padding:20px 0px;
-}
-
-.cart_img{
-	float:left;
-	width:320px;
-}
-
-.cart_img img{
-	float:left;
-	width:160px;
-	height:auto;
-	margin-right:10px;
-}
-
-.cart_img p{
-	float:left;
-	font-family:"Demi Condensed Medium";
-	font-size:24px;
-	width:150px;
-	color:#323232;
-	margin-bottom:5px;
-}
-
-.cart_img a{
-	color:#323232;
-	text-decoration:none;
-}
-
-.cart_img a:hover{
-	color:#323232;
-	text-decoration:none;
-}
-
-
-.cart_img cite{
-	float:left;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-	width:150px;
-}
-
-.cart_more{
-	float: left;
-border-left: 1px dotted #6a6a6a;
-padding-left: 15px;
-}
-
-.cart_more h6{
-	float:left;
-	font-family:"Demi Condensed Medium";
-	font-size:18px;
-	color:#323232;
-	margin-bottom:10px;
-	width:100%;
-}
-
-.cart_more_list li{
-	margin-bottom:5px;
-}
-
-.cart_more_list li a {
-text-decoration:none !important;
-color:#323232;
-	     }	
-.cart_more_list li a:hover{
-	color: #ff584e;
-}
-</style>
-
 <script type="text/javascript" charset="utf-8">
  $(document).ready(function(){
   var UID = mdManager.getParameter ("UniqueID");
@@ -102,6 +7,87 @@ color:#323232;
     // Set to escaped markup. I use http://accessify.com/tools-and-wizards/developer-tools/html-javascript-convertor/ to save time.
 // build HTML content
 var syncedContent1="";
+//CSS styles have been included here because there seems to be an issue with certain pages where the style either doesn't get applied or there is a conflict with javascript that removes the styles - not sure of the root cause, but moving the CSS here fixes it.
+syncedContent1 += "<style>";
+syncedContent1 += "@charset \"UTF-8\";";
+syncedContent1 += "#sponsorCtr1{";
+syncedContent1 += "	display:block;";
+syncedContent1 += "}";
+syncedContent1 += ".sponsored_header{";
+syncedContent1 += "	position:absolute;";
+syncedContent1 += "	top:-8px;";
+syncedContent1 += "	left:245px;";
+syncedContent1 += "	background-color:#FFFFFF;";
+syncedContent1 += "	padding: 0px 15px;";
+syncedContent1 += "	font-family:Georgia, \"Times New Roman\", Times, serif;";
+syncedContent1 += "	font-size:14px;";
+syncedContent1 += "	font-style: italic;";
+syncedContent1 += "}";
+syncedContent1 += ".cartridge_module{";
+syncedContent1 += "	position:relative;";
+syncedContent1 += "	float:left;";
+syncedContent1 += "	width:100%;";
+syncedContent1 += "	margin-top:25px;";
+syncedContent1 += "	border-top:4px double #cccccc;";
+syncedContent1 += "	border-bottom: 4px double #cccccc;";
+syncedContent1 += "	padding:20px 0px;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_img{";
+syncedContent1 += "	float:left;";
+syncedContent1 += "	width:320px;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_img img{";
+syncedContent1 += "	float:left;";
+syncedContent1 += "	width:160px;";
+syncedContent1 += "	height:auto;";
+syncedContent1 += "	margin-right:10px;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_img p{";
+syncedContent1 += "	float:left;";
+syncedContent1 += "	font-family:\"Demi Condensed Medium\";";
+syncedContent1 += "	font-size:24px;";
+syncedContent1 += "	width:150px;";
+syncedContent1 += "	color:#323232;";
+syncedContent1 += "	margin-bottom:5px;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_img a{";
+syncedContent1 += "	color:#323232;";
+syncedContent1 += "	text-decoration:none;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_img a:hover{";
+syncedContent1 += "	color:#323232;";
+syncedContent1 += "	text-decoration:none;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_img cite{";
+syncedContent1 += "	float:left;";
+syncedContent1 += "	font-family:Arial, Helvetica, sans-serif;";
+syncedContent1 += "	font-size:12px;";
+syncedContent1 += "	width:150px;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_more{";
+syncedContent1 += "	float: left;";
+syncedContent1 += "border-left: 1px dotted #6a6a6a;";
+syncedContent1 += "padding-left: 15px;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_more h6{";
+syncedContent1 += "	float:left;";
+syncedContent1 += "	font-family:\"Demi Condensed Medium\";";
+syncedContent1 += "	font-size:18px;";
+syncedContent1 += "	color:#323232;";
+syncedContent1 += "	margin-bottom:10px;";
+syncedContent1 += "	width:100%;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_more_list li{";
+syncedContent1 += "	margin-bottom:5px;";
+syncedContent1 += "}";
+syncedContent1 += ".cart_more_list li a {";
+syncedContent1 += "text-decoration:none !important;";
+syncedContent1 += "color:#323232;";
+syncedContent1 += "	     }	";
+syncedContent1 += ".cart_more_list li a:hover{";
+syncedContent1 += "	color: #ff584e;";
+syncedContent1 += "}";
+syncedContent1 += "<\/style>";
 syncedContent1 += "<div class=\"cartridge_module\">";
 syncedContent1 += "<div class=\"sponsored_header\">Sponsored Recipes<\/div>";
 syncedContent1 += "<div class=\"cart_img\">";
@@ -124,6 +110,11 @@ syncedContent1 += "<\/div>";
 syncedContent1 += "<img src=\"http:\/\/adsremote.scrippsnetworks.com\/image.ng\/site=FOOD&adtype=TRACKING&TRACKING=FOOD_14JAN30_JOHNSONVILLE_5WAYS_CART_1X1&adsize=1x1&PagePos=1\" border=0>";
 //end impression tag
 
+//research tag
+syncedContent1  += "<!-- Start Pixel Call \/ 1x1integratedrecipes creative \/ integratedrecipes Targeting --> ";
+syncedContent1  += "<img src=\"http:\/\/ohlone.vizu.com\/a.gif?vzcid=9777&vzadid=1x1integratedrecipes&vzsid=foodnetwork&vzwc=integratedrecipes&ord=$random$\" style=\"display:none\"\/> ";
+syncedContent1  += "<!-- End Pixel Call \/ 1x1integratedrecipes creative \/ integratedrecipes Targeting -->";
+
 // Appending to graphic lead module.
 // to rotate multiple, add variables to array:
 // values = [sn1,sn2,etc]
@@ -144,5 +135,3 @@ loaded = true;
 </script>
 
 <!-- end cartridge container -->
-
-<div id="sponsorCtr1"></div>
