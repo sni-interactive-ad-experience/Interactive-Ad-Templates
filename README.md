@@ -9,4 +9,21 @@ This is the central repository for Creative Services product templates. This all
 
 FN Redesign Modules - https://github.com/sni-interactive-ad-experience/Interactive-Ad-Templates/tree/master/FN%20Redesign%20Modules/FN%20RSI
 
-please note: As of 04-10-2014 - the image path within template.xml (<imagePath>) has changed on the server and should be examined closely upon entering data from Excel.
+please note: As of 04-10-2014 - the image path within <a href="https://github.com/sni-interactive-ad-experience/Interactive-Ad-Templates/blob/master/FN%20Redesign%20Modules/FN%20RSI/xml/template.xml">template.xml<a/> (&lt;imagePath&gt;) has changed on the server and should be examined closely upon entering data from Excel.
+
+New structure will be similar to: http://img.foodnetwork.com/FOOD/2014/03/28/
+
+Remember it should be a base path for all images.
+Example: http://img.foodnetwork.com/FOOD/2014/03/28/
+
+Then keywords.xml will supply each image individually.
+e.g.
+
+RX-DAISY_Savory-Potato-Pancakes-2_s4x3_sm.jpg
+RX-DAISY_Sour-Cream-Cheesecake_s4x3_sm.jpg
+RX-DAISY_Mini-Potato-Quiches_s4x3_sm.jpg
+
+!!! COMING SOON !!!
+
+new RSI templates for all brands.
+
