@@ -6,3 +6,7 @@ This is the central repository for Creative Services product templates. This all
 *If you are unsure if a version you are using is up-to-date, you may browse the commit history to see what changes have been made.*
 
 **Note: This is a public repository and should be used for non-sensitive content.**
+
+FN Redesign Modules - https://github.com/sni-interactive-ad-experience/Interactive-Ad-Templates/tree/master/FN%20Redesign%20Modules/FN%20RSI
+
+please note: As of 04-10-2014 - the image path within template.xml (<imagePath>) has changed on the server and should be examined closely upon entering data from Excel.
